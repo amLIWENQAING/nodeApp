@@ -1,0 +1,1930 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'webpack',
+1 verbose cli   '--save-dev' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.2
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData webpack
+8 silly fetchNamedPackageData webpack
+9 silly mapToRegistry name webpack
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry http://192.168.1.200:4873/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'webpack',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'webpack',
+12 silly mapToRegistry   name: 'webpack',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri http://192.168.1.200:4873/webpack
+14 verbose request uri http://192.168.1.200:4873/webpack
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 10:55:50
+17 verbose request using bearer token for auth
+18 verbose request id aa61f7a2c5819536
+19 verbose etag "9cf5c8d5ad2d2d26ea65456f4a4a3ffb"
+20 http request GET http://192.168.1.200:4873/webpack
+21 http 304 http://192.168.1.200:4873/webpack
+22 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+22 verbose headers   etag: '"9cf5c8d5ad2d2d26ea65456f4a4a3ffb"',
+22 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+22 verbose headers   date: 'Fri, 15 Jun 2018 02:55:51 GMT',
+22 verbose headers   connection: 'keep-alive' }
+23 silly get cb [ 304,
+23 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+23 silly get     etag: '"9cf5c8d5ad2d2d26ea65456f4a4a3ffb"',
+23 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+23 silly get     date: 'Fri, 15 Jun 2018 02:55:51 GMT',
+23 silly get     connection: 'keep-alive' } ]
+24 verbose etag http://192.168.1.200:4873/webpack from cache
+25 verbose get saving webpack to /Users/liwenqiang/.npm/192.168.1.200_4873/webpack/.cache.json
+26 verbose correctMkdir /Users/liwenqiang/.npm correctMkdir not in flight; initializing
+27 silly install normalizeTree
+28 silly loadCurrentTree Finishing
+29 silly loadIdealTree Starting
+30 silly install loadIdealTree
+31 silly cloneCurrentTree Starting
+32 silly install cloneCurrentTreeToIdealTree
+33 silly cloneCurrentTree Finishing
+34 silly loadShrinkwrap Starting
+35 silly install loadShrinkwrap
+36 silly loadShrinkwrap Finishing
+37 silly loadAllDepsIntoIdealTree Starting
+38 silly install loadAllDepsIntoIdealTree
+39 silly resolveWithNewModule webpack@4.12.0 checking installable status
+40 silly cache add args [ 'webpack', null ]
+41 verbose cache add spec webpack
+42 silly cache add parsed spec Result {
+42 silly cache add   raw: 'webpack',
+42 silly cache add   scope: null,
+42 silly cache add   escapedName: 'webpack',
+42 silly cache add   name: 'webpack',
+42 silly cache add   rawSpec: '',
+42 silly cache add   spec: 'latest',
+42 silly cache add   type: 'tag' }
+43 silly addNamed webpack@latest
+44 verbose addNamed "latest" is being treated as a dist-tag for webpack
+45 info addNameTag [ 'webpack', 'latest' ]
+46 silly mapToRegistry name webpack
+47 silly mapToRegistry using default registry
+48 silly mapToRegistry registry http://192.168.1.200:4873/
+49 silly mapToRegistry data Result {
+49 silly mapToRegistry   raw: 'webpack',
+49 silly mapToRegistry   scope: null,
+49 silly mapToRegistry   escapedName: 'webpack',
+49 silly mapToRegistry   name: 'webpack',
+49 silly mapToRegistry   rawSpec: '',
+49 silly mapToRegistry   spec: 'latest',
+49 silly mapToRegistry   type: 'tag' }
+50 silly mapToRegistry uri http://192.168.1.200:4873/webpack
+51 verbose addNameTag registry:http://192.168.1.200:4873/webpack not in flight; fetching
+52 verbose get http://192.168.1.200:4873/webpack not expired, no request
+53 silly addNameTag next cb for webpack with tag latest
+54 silly addNamed webpack@4.12.0
+55 verbose addNamed "4.12.0" is a plain semver version for webpack
+56 silly cache afterAdd webpack@4.12.0
+57 verbose afterAdd /Users/liwenqiang/.npm/webpack/4.12.0/package/package.json not in flight; writing
+58 verbose correctMkdir /Users/liwenqiang/.npm correctMkdir not in flight; initializing
+59 verbose afterAdd /Users/liwenqiang/.npm/webpack/4.12.0/package/package.json written
+60 silly fetchNamedPackageData @webassemblyjs/ast
+61 silly mapToRegistry name @webassemblyjs/ast
+62 silly mapToRegistry scope (from package name) @webassemblyjs
+63 verbose mapToRegistry no registry URL found in name for scope @webassemblyjs
+64 silly mapToRegistry using default registry
+65 silly mapToRegistry registry http://192.168.1.200:4873/
+66 silly mapToRegistry data Result {
+66 silly mapToRegistry   raw: '@webassemblyjs/ast',
+66 silly mapToRegistry   scope: '@webassemblyjs',
+66 silly mapToRegistry   escapedName: '@webassemblyjs%2fast',
+66 silly mapToRegistry   name: '@webassemblyjs/ast',
+66 silly mapToRegistry   rawSpec: '',
+66 silly mapToRegistry   spec: 'latest',
+66 silly mapToRegistry   type: 'tag' }
+67 silly mapToRegistry uri http://192.168.1.200:4873/@webassemblyjs%2fast
+68 silly fetchNamedPackageData @webassemblyjs/helper-module-context
+69 silly mapToRegistry name @webassemblyjs/helper-module-context
+70 silly mapToRegistry scope (from package name) @webassemblyjs
+71 verbose mapToRegistry no registry URL found in name for scope @webassemblyjs
+72 silly mapToRegistry using default registry
+73 silly mapToRegistry registry http://192.168.1.200:4873/
+74 silly mapToRegistry data Result {
+74 silly mapToRegistry   raw: '@webassemblyjs/helper-module-context',
+74 silly mapToRegistry   scope: '@webassemblyjs',
+74 silly mapToRegistry   escapedName: '@webassemblyjs%2fhelper-module-context',
+74 silly mapToRegistry   name: '@webassemblyjs/helper-module-context',
+74 silly mapToRegistry   rawSpec: '',
+74 silly mapToRegistry   spec: 'latest',
+74 silly mapToRegistry   type: 'tag' }
+75 silly mapToRegistry uri http://192.168.1.200:4873/@webassemblyjs%2fhelper-module-context
+76 silly fetchNamedPackageData @webassemblyjs/wasm-edit
+77 silly mapToRegistry name @webassemblyjs/wasm-edit
+78 silly mapToRegistry scope (from package name) @webassemblyjs
+79 verbose mapToRegistry no registry URL found in name for scope @webassemblyjs
+80 silly mapToRegistry using default registry
+81 silly mapToRegistry registry http://192.168.1.200:4873/
+82 silly mapToRegistry data Result {
+82 silly mapToRegistry   raw: '@webassemblyjs/wasm-edit',
+82 silly mapToRegistry   scope: '@webassemblyjs',
+82 silly mapToRegistry   escapedName: '@webassemblyjs%2fwasm-edit',
+82 silly mapToRegistry   name: '@webassemblyjs/wasm-edit',
+82 silly mapToRegistry   rawSpec: '',
+82 silly mapToRegistry   spec: 'latest',
+82 silly mapToRegistry   type: 'tag' }
+83 silly mapToRegistry uri http://192.168.1.200:4873/@webassemblyjs%2fwasm-edit
+84 silly fetchNamedPackageData @webassemblyjs/wasm-opt
+85 silly mapToRegistry name @webassemblyjs/wasm-opt
+86 silly mapToRegistry scope (from package name) @webassemblyjs
+87 verbose mapToRegistry no registry URL found in name for scope @webassemblyjs
+88 silly mapToRegistry using default registry
+89 silly mapToRegistry registry http://192.168.1.200:4873/
+90 silly mapToRegistry data Result {
+90 silly mapToRegistry   raw: '@webassemblyjs/wasm-opt',
+90 silly mapToRegistry   scope: '@webassemblyjs',
+90 silly mapToRegistry   escapedName: '@webassemblyjs%2fwasm-opt',
+90 silly mapToRegistry   name: '@webassemblyjs/wasm-opt',
+90 silly mapToRegistry   rawSpec: '',
+90 silly mapToRegistry   spec: 'latest',
+90 silly mapToRegistry   type: 'tag' }
+91 silly mapToRegistry uri http://192.168.1.200:4873/@webassemblyjs%2fwasm-opt
+92 silly fetchNamedPackageData @webassemblyjs/wasm-parser
+93 silly mapToRegistry name @webassemblyjs/wasm-parser
+94 silly mapToRegistry scope (from package name) @webassemblyjs
+95 verbose mapToRegistry no registry URL found in name for scope @webassemblyjs
+96 silly mapToRegistry using default registry
+97 silly mapToRegistry registry http://192.168.1.200:4873/
+98 silly mapToRegistry data Result {
+98 silly mapToRegistry   raw: '@webassemblyjs/wasm-parser',
+98 silly mapToRegistry   scope: '@webassemblyjs',
+98 silly mapToRegistry   escapedName: '@webassemblyjs%2fwasm-parser',
+98 silly mapToRegistry   name: '@webassemblyjs/wasm-parser',
+98 silly mapToRegistry   rawSpec: '',
+98 silly mapToRegistry   spec: 'latest',
+98 silly mapToRegistry   type: 'tag' }
+99 silly mapToRegistry uri http://192.168.1.200:4873/@webassemblyjs%2fwasm-parser
+100 silly fetchNamedPackageData acorn
+101 silly mapToRegistry name acorn
+102 silly mapToRegistry using default registry
+103 silly mapToRegistry registry http://192.168.1.200:4873/
+104 silly mapToRegistry data Result {
+104 silly mapToRegistry   raw: 'acorn',
+104 silly mapToRegistry   scope: null,
+104 silly mapToRegistry   escapedName: 'acorn',
+104 silly mapToRegistry   name: 'acorn',
+104 silly mapToRegistry   rawSpec: '',
+104 silly mapToRegistry   spec: 'latest',
+104 silly mapToRegistry   type: 'tag' }
+105 silly mapToRegistry uri http://192.168.1.200:4873/acorn
+106 silly fetchNamedPackageData acorn-dynamic-import
+107 silly mapToRegistry name acorn-dynamic-import
+108 silly mapToRegistry using default registry
+109 silly mapToRegistry registry http://192.168.1.200:4873/
+110 silly mapToRegistry data Result {
+110 silly mapToRegistry   raw: 'acorn-dynamic-import',
+110 silly mapToRegistry   scope: null,
+110 silly mapToRegistry   escapedName: 'acorn-dynamic-import',
+110 silly mapToRegistry   name: 'acorn-dynamic-import',
+110 silly mapToRegistry   rawSpec: '',
+110 silly mapToRegistry   spec: 'latest',
+110 silly mapToRegistry   type: 'tag' }
+111 silly mapToRegistry uri http://192.168.1.200:4873/acorn-dynamic-import
+112 silly fetchNamedPackageData chrome-trace-event
+113 silly mapToRegistry name chrome-trace-event
+114 silly mapToRegistry using default registry
+115 silly mapToRegistry registry http://192.168.1.200:4873/
+116 silly mapToRegistry data Result {
+116 silly mapToRegistry   raw: 'chrome-trace-event',
+116 silly mapToRegistry   scope: null,
+116 silly mapToRegistry   escapedName: 'chrome-trace-event',
+116 silly mapToRegistry   name: 'chrome-trace-event',
+116 silly mapToRegistry   rawSpec: '',
+116 silly mapToRegistry   spec: 'latest',
+116 silly mapToRegistry   type: 'tag' }
+117 silly mapToRegistry uri http://192.168.1.200:4873/chrome-trace-event
+118 silly fetchNamedPackageData enhanced-resolve
+119 silly mapToRegistry name enhanced-resolve
+120 silly mapToRegistry using default registry
+121 silly mapToRegistry registry http://192.168.1.200:4873/
+122 silly mapToRegistry data Result {
+122 silly mapToRegistry   raw: 'enhanced-resolve',
+122 silly mapToRegistry   scope: null,
+122 silly mapToRegistry   escapedName: 'enhanced-resolve',
+122 silly mapToRegistry   name: 'enhanced-resolve',
+122 silly mapToRegistry   rawSpec: '',
+122 silly mapToRegistry   spec: 'latest',
+122 silly mapToRegistry   type: 'tag' }
+123 silly mapToRegistry uri http://192.168.1.200:4873/enhanced-resolve
+124 silly fetchNamedPackageData eslint-scope
+125 silly mapToRegistry name eslint-scope
+126 silly mapToRegistry using default registry
+127 silly mapToRegistry registry http://192.168.1.200:4873/
+128 silly mapToRegistry data Result {
+128 silly mapToRegistry   raw: 'eslint-scope',
+128 silly mapToRegistry   scope: null,
+128 silly mapToRegistry   escapedName: 'eslint-scope',
+128 silly mapToRegistry   name: 'eslint-scope',
+128 silly mapToRegistry   rawSpec: '',
+128 silly mapToRegistry   spec: 'latest',
+128 silly mapToRegistry   type: 'tag' }
+129 silly mapToRegistry uri http://192.168.1.200:4873/eslint-scope
+130 silly fetchNamedPackageData json-parse-better-errors
+131 silly mapToRegistry name json-parse-better-errors
+132 silly mapToRegistry using default registry
+133 silly mapToRegistry registry http://192.168.1.200:4873/
+134 silly mapToRegistry data Result {
+134 silly mapToRegistry   raw: 'json-parse-better-errors',
+134 silly mapToRegistry   scope: null,
+134 silly mapToRegistry   escapedName: 'json-parse-better-errors',
+134 silly mapToRegistry   name: 'json-parse-better-errors',
+134 silly mapToRegistry   rawSpec: '',
+134 silly mapToRegistry   spec: 'latest',
+134 silly mapToRegistry   type: 'tag' }
+135 silly mapToRegistry uri http://192.168.1.200:4873/json-parse-better-errors
+136 silly fetchNamedPackageData loader-runner
+137 silly mapToRegistry name loader-runner
+138 silly mapToRegistry using default registry
+139 silly mapToRegistry registry http://192.168.1.200:4873/
+140 silly mapToRegistry data Result {
+140 silly mapToRegistry   raw: 'loader-runner',
+140 silly mapToRegistry   scope: null,
+140 silly mapToRegistry   escapedName: 'loader-runner',
+140 silly mapToRegistry   name: 'loader-runner',
+140 silly mapToRegistry   rawSpec: '',
+140 silly mapToRegistry   spec: 'latest',
+140 silly mapToRegistry   type: 'tag' }
+141 silly mapToRegistry uri http://192.168.1.200:4873/loader-runner
+142 silly fetchNamedPackageData memory-fs
+143 silly mapToRegistry name memory-fs
+144 silly mapToRegistry using default registry
+145 silly mapToRegistry registry http://192.168.1.200:4873/
+146 silly mapToRegistry data Result {
+146 silly mapToRegistry   raw: 'memory-fs',
+146 silly mapToRegistry   scope: null,
+146 silly mapToRegistry   escapedName: 'memory-fs',
+146 silly mapToRegistry   name: 'memory-fs',
+146 silly mapToRegistry   rawSpec: '',
+146 silly mapToRegistry   spec: 'latest',
+146 silly mapToRegistry   type: 'tag' }
+147 silly mapToRegistry uri http://192.168.1.200:4873/memory-fs
+148 silly fetchNamedPackageData micromatch
+149 silly mapToRegistry name micromatch
+150 silly mapToRegistry using default registry
+151 silly mapToRegistry registry http://192.168.1.200:4873/
+152 silly mapToRegistry data Result {
+152 silly mapToRegistry   raw: 'micromatch',
+152 silly mapToRegistry   scope: null,
+152 silly mapToRegistry   escapedName: 'micromatch',
+152 silly mapToRegistry   name: 'micromatch',
+152 silly mapToRegistry   rawSpec: '',
+152 silly mapToRegistry   spec: 'latest',
+152 silly mapToRegistry   type: 'tag' }
+153 silly mapToRegistry uri http://192.168.1.200:4873/micromatch
+154 silly fetchNamedPackageData neo-async
+155 silly mapToRegistry name neo-async
+156 silly mapToRegistry using default registry
+157 silly mapToRegistry registry http://192.168.1.200:4873/
+158 silly mapToRegistry data Result {
+158 silly mapToRegistry   raw: 'neo-async',
+158 silly mapToRegistry   scope: null,
+158 silly mapToRegistry   escapedName: 'neo-async',
+158 silly mapToRegistry   name: 'neo-async',
+158 silly mapToRegistry   rawSpec: '',
+158 silly mapToRegistry   spec: 'latest',
+158 silly mapToRegistry   type: 'tag' }
+159 silly mapToRegistry uri http://192.168.1.200:4873/neo-async
+160 silly fetchNamedPackageData node-libs-browser
+161 silly mapToRegistry name node-libs-browser
+162 silly mapToRegistry using default registry
+163 silly mapToRegistry registry http://192.168.1.200:4873/
+164 silly mapToRegistry data Result {
+164 silly mapToRegistry   raw: 'node-libs-browser',
+164 silly mapToRegistry   scope: null,
+164 silly mapToRegistry   escapedName: 'node-libs-browser',
+164 silly mapToRegistry   name: 'node-libs-browser',
+164 silly mapToRegistry   rawSpec: '',
+164 silly mapToRegistry   spec: 'latest',
+164 silly mapToRegistry   type: 'tag' }
+165 silly mapToRegistry uri http://192.168.1.200:4873/node-libs-browser
+166 silly fetchNamedPackageData tapable
+167 silly mapToRegistry name tapable
+168 silly mapToRegistry using default registry
+169 silly mapToRegistry registry http://192.168.1.200:4873/
+170 silly mapToRegistry data Result {
+170 silly mapToRegistry   raw: 'tapable',
+170 silly mapToRegistry   scope: null,
+170 silly mapToRegistry   escapedName: 'tapable',
+170 silly mapToRegistry   name: 'tapable',
+170 silly mapToRegistry   rawSpec: '',
+170 silly mapToRegistry   spec: 'latest',
+170 silly mapToRegistry   type: 'tag' }
+171 silly mapToRegistry uri http://192.168.1.200:4873/tapable
+172 silly fetchNamedPackageData uglifyjs-webpack-plugin
+173 silly mapToRegistry name uglifyjs-webpack-plugin
+174 silly mapToRegistry using default registry
+175 silly mapToRegistry registry http://192.168.1.200:4873/
+176 silly mapToRegistry data Result {
+176 silly mapToRegistry   raw: 'uglifyjs-webpack-plugin',
+176 silly mapToRegistry   scope: null,
+176 silly mapToRegistry   escapedName: 'uglifyjs-webpack-plugin',
+176 silly mapToRegistry   name: 'uglifyjs-webpack-plugin',
+176 silly mapToRegistry   rawSpec: '',
+176 silly mapToRegistry   spec: 'latest',
+176 silly mapToRegistry   type: 'tag' }
+177 silly mapToRegistry uri http://192.168.1.200:4873/uglifyjs-webpack-plugin
+178 silly fetchNamedPackageData watchpack
+179 silly mapToRegistry name watchpack
+180 silly mapToRegistry using default registry
+181 silly mapToRegistry registry http://192.168.1.200:4873/
+182 silly mapToRegistry data Result {
+182 silly mapToRegistry   raw: 'watchpack',
+182 silly mapToRegistry   scope: null,
+182 silly mapToRegistry   escapedName: 'watchpack',
+182 silly mapToRegistry   name: 'watchpack',
+182 silly mapToRegistry   rawSpec: '',
+182 silly mapToRegistry   spec: 'latest',
+182 silly mapToRegistry   type: 'tag' }
+183 silly mapToRegistry uri http://192.168.1.200:4873/watchpack
+184 silly fetchNamedPackageData webpack-sources
+185 silly mapToRegistry name webpack-sources
+186 silly mapToRegistry using default registry
+187 silly mapToRegistry registry http://192.168.1.200:4873/
+188 silly mapToRegistry data Result {
+188 silly mapToRegistry   raw: 'webpack-sources',
+188 silly mapToRegistry   scope: null,
+188 silly mapToRegistry   escapedName: 'webpack-sources',
+188 silly mapToRegistry   name: 'webpack-sources',
+188 silly mapToRegistry   rawSpec: '',
+188 silly mapToRegistry   spec: 'latest',
+188 silly mapToRegistry   type: 'tag' }
+189 silly mapToRegistry uri http://192.168.1.200:4873/webpack-sources
+190 verbose request uri http://192.168.1.200:4873/@webassemblyjs%2fast
+191 verbose request no auth needed
+192 info attempt registry request try #1 at 10:55:52
+193 verbose request using bearer token for auth
+194 http request GET http://192.168.1.200:4873/@webassemblyjs%2fast
+195 verbose request uri http://192.168.1.200:4873/@webassemblyjs%2fhelper-module-context
+196 verbose request no auth needed
+197 info attempt registry request try #1 at 10:55:52
+198 verbose request using bearer token for auth
+199 http request GET http://192.168.1.200:4873/@webassemblyjs%2fhelper-module-context
+200 verbose request uri http://192.168.1.200:4873/@webassemblyjs%2fwasm-edit
+201 verbose request no auth needed
+202 info attempt registry request try #1 at 10:55:52
+203 verbose request using bearer token for auth
+204 http request GET http://192.168.1.200:4873/@webassemblyjs%2fwasm-edit
+205 verbose request uri http://192.168.1.200:4873/@webassemblyjs%2fwasm-opt
+206 verbose request no auth needed
+207 info attempt registry request try #1 at 10:55:52
+208 verbose request using bearer token for auth
+209 http request GET http://192.168.1.200:4873/@webassemblyjs%2fwasm-opt
+210 verbose request uri http://192.168.1.200:4873/@webassemblyjs%2fwasm-parser
+211 verbose request no auth needed
+212 info attempt registry request try #1 at 10:55:52
+213 verbose request using bearer token for auth
+214 http request GET http://192.168.1.200:4873/@webassemblyjs%2fwasm-parser
+215 verbose request uri http://192.168.1.200:4873/acorn
+216 verbose request no auth needed
+217 info attempt registry request try #1 at 10:55:52
+218 verbose request using bearer token for auth
+219 verbose etag "5bb73e324e25ba53695b485aabfb40f0"
+220 http request GET http://192.168.1.200:4873/acorn
+221 verbose request uri http://192.168.1.200:4873/acorn-dynamic-import
+222 verbose request no auth needed
+223 info attempt registry request try #1 at 10:55:52
+224 verbose request using bearer token for auth
+225 verbose etag "265ee9868e634e959b45b55c00c60cf5"
+226 http request GET http://192.168.1.200:4873/acorn-dynamic-import
+227 verbose request uri http://192.168.1.200:4873/chrome-trace-event
+228 verbose request no auth needed
+229 info attempt registry request try #1 at 10:55:52
+230 verbose request using bearer token for auth
+231 verbose etag "e4f50d8cd5456d5febea3b25afffd201"
+232 http request GET http://192.168.1.200:4873/chrome-trace-event
+233 verbose request uri http://192.168.1.200:4873/eslint-scope
+234 verbose request no auth needed
+235 info attempt registry request try #1 at 10:55:52
+236 verbose request using bearer token for auth
+237 verbose etag "bd34f4a2238447ba972202a507a3a67f"
+238 http request GET http://192.168.1.200:4873/eslint-scope
+239 verbose request uri http://192.168.1.200:4873/enhanced-resolve
+240 verbose request no auth needed
+241 info attempt registry request try #1 at 10:55:52
+242 verbose request using bearer token for auth
+243 verbose etag "ed31b76b69298781d87583b85bca1140"
+244 http request GET http://192.168.1.200:4873/enhanced-resolve
+245 verbose request uri http://192.168.1.200:4873/json-parse-better-errors
+246 verbose request no auth needed
+247 info attempt registry request try #1 at 10:55:52
+248 verbose request using bearer token for auth
+249 verbose etag "b8ce819149c11e2a3ee0c7ee32cec650"
+250 http request GET http://192.168.1.200:4873/json-parse-better-errors
+251 verbose request uri http://192.168.1.200:4873/loader-runner
+252 verbose request no auth needed
+253 info attempt registry request try #1 at 10:55:52
+254 verbose request using bearer token for auth
+255 verbose etag "7bcddd2bc6815e4d7a3e031a773c39e2"
+256 http request GET http://192.168.1.200:4873/loader-runner
+257 verbose request uri http://192.168.1.200:4873/memory-fs
+258 verbose request no auth needed
+259 info attempt registry request try #1 at 10:55:52
+260 verbose request using bearer token for auth
+261 verbose etag "879c7060cfbb32a2757f056205245769"
+262 http request GET http://192.168.1.200:4873/memory-fs
+263 verbose request uri http://192.168.1.200:4873/neo-async
+264 verbose request no auth needed
+265 info attempt registry request try #1 at 10:55:52
+266 verbose request using bearer token for auth
+267 verbose etag "920f0364d780b571515745e13d6c11a7"
+268 http request GET http://192.168.1.200:4873/neo-async
+269 verbose request uri http://192.168.1.200:4873/micromatch
+270 verbose request no auth needed
+271 info attempt registry request try #1 at 10:55:52
+272 verbose request using bearer token for auth
+273 verbose etag "dd853ba516d696c058ef88e0abb79305"
+274 http request GET http://192.168.1.200:4873/micromatch
+275 verbose request uri http://192.168.1.200:4873/node-libs-browser
+276 verbose request no auth needed
+277 info attempt registry request try #1 at 10:55:52
+278 verbose request using bearer token for auth
+279 verbose etag "2ba45652d936a8ac4afb6355fdc979be"
+280 http request GET http://192.168.1.200:4873/node-libs-browser
+281 verbose request uri http://192.168.1.200:4873/tapable
+282 verbose request no auth needed
+283 info attempt registry request try #1 at 10:55:52
+284 verbose request using bearer token for auth
+285 verbose etag "2d2f320f68adcef6301a7354f5f396b4"
+286 http request GET http://192.168.1.200:4873/tapable
+287 verbose request uri http://192.168.1.200:4873/watchpack
+288 verbose request no auth needed
+289 info attempt registry request try #1 at 10:55:52
+290 verbose request using bearer token for auth
+291 verbose etag "13c5f4bcf0ebd1d6d3d0643eac5788f6"
+292 http request GET http://192.168.1.200:4873/watchpack
+293 verbose request uri http://192.168.1.200:4873/uglifyjs-webpack-plugin
+294 verbose request no auth needed
+295 info attempt registry request try #1 at 10:55:52
+296 verbose request using bearer token for auth
+297 verbose etag "eeb26d7079f08de2888855ba1697c26c"
+298 http request GET http://192.168.1.200:4873/uglifyjs-webpack-plugin
+299 verbose request uri http://192.168.1.200:4873/webpack-sources
+300 verbose request no auth needed
+301 info attempt registry request try #1 at 10:55:52
+302 verbose request using bearer token for auth
+303 verbose etag "0cb4694c568528c4a1c405aae6de25de"
+304 http request GET http://192.168.1.200:4873/webpack-sources
+305 http 403 http://192.168.1.200:4873/@webassemblyjs%2fast
+306 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+306 verbose headers   'content-type': 'application/json; charset=utf-8',
+306 verbose headers   'content-length': '85',
+306 verbose headers   etag: 'W/"55-3c774f6d"',
+306 verbose headers   vary: 'Accept-Encoding',
+306 verbose headers   'x-status-cat': 'http://flic.kr/p/aV6jFK',
+306 verbose headers   date: 'Fri, 15 Jun 2018 02:55:51 GMT',
+306 verbose headers   connection: 'keep-alive' }
+307 silly get cb [ 403,
+307 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+307 silly get     'content-type': 'application/json; charset=utf-8',
+307 silly get     'content-length': '85',
+307 silly get     etag: 'W/"55-3c774f6d"',
+307 silly get     vary: 'Accept-Encoding',
+307 silly get     'x-status-cat': 'http://flic.kr/p/aV6jFK',
+307 silly get     date: 'Fri, 15 Jun 2018 02:55:51 GMT',
+307 silly get     connection: 'keep-alive' } ]
+308 silly fetchPackageMetaData Error: user liwenqiang is not allowed to access package @webassemblyjs/ast : @webassemblyjs/ast
+308 silly fetchPackageMetaData     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+308 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+308 silly fetchPackageMetaData     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+308 silly fetchPackageMetaData     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:187:22)
+308 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+308 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+308 silly fetchPackageMetaData     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+308 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+308 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+308 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:969:12)
+308 silly fetchPackageMetaData  error for @webassemblyjs/ast@1.5.12 { Error: user liwenqiang is not allowed to access package @webassemblyjs/ast : @webassemblyjs/ast
+308 silly fetchPackageMetaData     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+308 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+308 silly fetchPackageMetaData     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+308 silly fetchPackageMetaData     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:187:22)
+308 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+308 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+308 silly fetchPackageMetaData     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+308 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+308 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+308 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:969:12) pkgid: '@webassemblyjs/ast', statusCode: 403, code: 'E403' }
+309 http 403 http://192.168.1.200:4873/@webassemblyjs%2fhelper-module-context
+310 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+310 verbose headers   'content-type': 'application/json; charset=utf-8',
+310 verbose headers   'content-length': '103',
+310 verbose headers   etag: 'W/"67-267d5be8"',
+310 verbose headers   vary: 'Accept-Encoding',
+310 verbose headers   'x-status-cat': 'http://flic.kr/p/aV6jFK',
+310 verbose headers   date: 'Fri, 15 Jun 2018 02:55:51 GMT',
+310 verbose headers   connection: 'keep-alive' }
+311 silly get cb [ 403,
+311 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+311 silly get     'content-type': 'application/json; charset=utf-8',
+311 silly get     'content-length': '103',
+311 silly get     etag: 'W/"67-267d5be8"',
+311 silly get     vary: 'Accept-Encoding',
+311 silly get     'x-status-cat': 'http://flic.kr/p/aV6jFK',
+311 silly get     date: 'Fri, 15 Jun 2018 02:55:51 GMT',
+311 silly get     connection: 'keep-alive' } ]
+312 silly fetchPackageMetaData Error: user liwenqiang is not allowed to access package @webassemblyjs/helper-module-context : @webassemblyjs/helper-module-context
+312 silly fetchPackageMetaData     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+312 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+312 silly fetchPackageMetaData     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+312 silly fetchPackageMetaData     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:187:22)
+312 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+312 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+312 silly fetchPackageMetaData     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+312 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+312 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+312 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:969:12)
+312 silly fetchPackageMetaData  error for @webassemblyjs/helper-module-context@1.5.12 { Error: user liwenqiang is not allowed to access package @webassemblyjs/helper-module-context : @webassemblyjs/helper-module-context
+312 silly fetchPackageMetaData     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+312 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+312 silly fetchPackageMetaData     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+312 silly fetchPackageMetaData     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:187:22)
+312 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+312 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+312 silly fetchPackageMetaData     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+312 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+312 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+312 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:969:12)
+312 silly fetchPackageMetaData   pkgid: '@webassemblyjs/helper-module-context',
+312 silly fetchPackageMetaData   statusCode: 403,
+312 silly fetchPackageMetaData   code: 'E403' }
+313 http 403 http://192.168.1.200:4873/@webassemblyjs%2fwasm-edit
+314 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+314 verbose headers   'content-type': 'application/json; charset=utf-8',
+314 verbose headers   'content-length': '91',
+314 verbose headers   etag: 'W/"5b-7adf53b3"',
+314 verbose headers   vary: 'Accept-Encoding',
+314 verbose headers   'x-status-cat': 'http://flic.kr/p/aV6jFK',
+314 verbose headers   date: 'Fri, 15 Jun 2018 02:55:51 GMT',
+314 verbose headers   connection: 'keep-alive' }
+315 silly get cb [ 403,
+315 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+315 silly get     'content-type': 'application/json; charset=utf-8',
+315 silly get     'content-length': '91',
+315 silly get     etag: 'W/"5b-7adf53b3"',
+315 silly get     vary: 'Accept-Encoding',
+315 silly get     'x-status-cat': 'http://flic.kr/p/aV6jFK',
+315 silly get     date: 'Fri, 15 Jun 2018 02:55:51 GMT',
+315 silly get     connection: 'keep-alive' } ]
+316 silly fetchPackageMetaData Error: user liwenqiang is not allowed to access package @webassemblyjs/wasm-edit : @webassemblyjs/wasm-edit
+316 silly fetchPackageMetaData     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+316 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+316 silly fetchPackageMetaData     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+316 silly fetchPackageMetaData     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:187:22)
+316 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+316 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+316 silly fetchPackageMetaData     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+316 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+316 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+316 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:969:12)
+316 silly fetchPackageMetaData  error for @webassemblyjs/wasm-edit@1.5.12 { Error: user liwenqiang is not allowed to access package @webassemblyjs/wasm-edit : @webassemblyjs/wasm-edit
+316 silly fetchPackageMetaData     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+316 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+316 silly fetchPackageMetaData     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+316 silly fetchPackageMetaData     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:187:22)
+316 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+316 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+316 silly fetchPackageMetaData     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+316 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+316 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+316 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:969:12)
+316 silly fetchPackageMetaData   pkgid: '@webassemblyjs/wasm-edit',
+316 silly fetchPackageMetaData   statusCode: 403,
+316 silly fetchPackageMetaData   code: 'E403' }
+317 http 403 http://192.168.1.200:4873/@webassemblyjs%2fwasm-opt
+318 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+318 verbose headers   'content-type': 'application/json; charset=utf-8',
+318 verbose headers   'content-length': '90',
+318 verbose headers   etag: 'W/"5a-68036bdf"',
+318 verbose headers   vary: 'Accept-Encoding',
+318 verbose headers   'x-status-cat': 'http://flic.kr/p/aV6jFK',
+318 verbose headers   date: 'Fri, 15 Jun 2018 02:55:51 GMT',
+318 verbose headers   connection: 'keep-alive' }
+319 silly get cb [ 403,
+319 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+319 silly get     'content-type': 'application/json; charset=utf-8',
+319 silly get     'content-length': '90',
+319 silly get     etag: 'W/"5a-68036bdf"',
+319 silly get     vary: 'Accept-Encoding',
+319 silly get     'x-status-cat': 'http://flic.kr/p/aV6jFK',
+319 silly get     date: 'Fri, 15 Jun 2018 02:55:51 GMT',
+319 silly get     connection: 'keep-alive' } ]
+320 silly fetchPackageMetaData Error: user liwenqiang is not allowed to access package @webassemblyjs/wasm-opt : @webassemblyjs/wasm-opt
+320 silly fetchPackageMetaData     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+320 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+320 silly fetchPackageMetaData     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+320 silly fetchPackageMetaData     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:187:22)
+320 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+320 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+320 silly fetchPackageMetaData     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+320 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+320 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+320 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:969:12)
+320 silly fetchPackageMetaData  error for @webassemblyjs/wasm-opt@1.5.12 { Error: user liwenqiang is not allowed to access package @webassemblyjs/wasm-opt : @webassemblyjs/wasm-opt
+320 silly fetchPackageMetaData     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+320 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+320 silly fetchPackageMetaData     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+320 silly fetchPackageMetaData     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:187:22)
+320 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+320 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+320 silly fetchPackageMetaData     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+320 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+320 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+320 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:969:12)
+320 silly fetchPackageMetaData   pkgid: '@webassemblyjs/wasm-opt',
+320 silly fetchPackageMetaData   statusCode: 403,
+320 silly fetchPackageMetaData   code: 'E403' }
+321 http 403 http://192.168.1.200:4873/@webassemblyjs%2fwasm-parser
+322 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+322 verbose headers   'content-type': 'application/json; charset=utf-8',
+322 verbose headers   'content-length': '93',
+322 verbose headers   etag: 'W/"5d-21e0e98e"',
+322 verbose headers   vary: 'Accept-Encoding',
+322 verbose headers   'x-status-cat': 'http://flic.kr/p/aV6jFK',
+322 verbose headers   date: 'Fri, 15 Jun 2018 02:55:51 GMT',
+322 verbose headers   connection: 'keep-alive' }
+323 silly get cb [ 403,
+323 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+323 silly get     'content-type': 'application/json; charset=utf-8',
+323 silly get     'content-length': '93',
+323 silly get     etag: 'W/"5d-21e0e98e"',
+323 silly get     vary: 'Accept-Encoding',
+323 silly get     'x-status-cat': 'http://flic.kr/p/aV6jFK',
+323 silly get     date: 'Fri, 15 Jun 2018 02:55:51 GMT',
+323 silly get     connection: 'keep-alive' } ]
+324 silly fetchPackageMetaData Error: user liwenqiang is not allowed to access package @webassemblyjs/wasm-parser : @webassemblyjs/wasm-parser
+324 silly fetchPackageMetaData     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+324 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+324 silly fetchPackageMetaData     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+324 silly fetchPackageMetaData     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:187:22)
+324 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+324 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+324 silly fetchPackageMetaData     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+324 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+324 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+324 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:969:12)
+324 silly fetchPackageMetaData  error for @webassemblyjs/wasm-parser@1.5.12 { Error: user liwenqiang is not allowed to access package @webassemblyjs/wasm-parser : @webassemblyjs/wasm-parser
+324 silly fetchPackageMetaData     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+324 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+324 silly fetchPackageMetaData     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+324 silly fetchPackageMetaData     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:187:22)
+324 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+324 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+324 silly fetchPackageMetaData     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+324 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+324 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+324 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:969:12)
+324 silly fetchPackageMetaData   pkgid: '@webassemblyjs/wasm-parser',
+324 silly fetchPackageMetaData   statusCode: 403,
+324 silly fetchPackageMetaData   code: 'E403' }
+325 http 304 http://192.168.1.200:4873/acorn
+326 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+326 verbose headers   etag: '"5bb73e324e25ba53695b485aabfb40f0"',
+326 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+326 verbose headers   date: 'Fri, 15 Jun 2018 02:55:52 GMT',
+326 verbose headers   connection: 'keep-alive' }
+327 silly get cb [ 304,
+327 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+327 silly get     etag: '"5bb73e324e25ba53695b485aabfb40f0"',
+327 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+327 silly get     date: 'Fri, 15 Jun 2018 02:55:52 GMT',
+327 silly get     connection: 'keep-alive' } ]
+328 verbose etag http://192.168.1.200:4873/acorn from cache
+329 verbose get saving acorn to /Users/liwenqiang/.npm/192.168.1.200_4873/acorn/.cache.json
+330 verbose correctMkdir /Users/liwenqiang/.npm correctMkdir not in flight; initializing
+331 http 304 http://192.168.1.200:4873/eslint-scope
+332 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+332 verbose headers   etag: '"bd34f4a2238447ba972202a507a3a67f"',
+332 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+332 verbose headers   date: 'Fri, 15 Jun 2018 02:55:52 GMT',
+332 verbose headers   connection: 'keep-alive' }
+333 silly get cb [ 304,
+333 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+333 silly get     etag: '"bd34f4a2238447ba972202a507a3a67f"',
+333 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+333 silly get     date: 'Fri, 15 Jun 2018 02:55:52 GMT',
+333 silly get     connection: 'keep-alive' } ]
+334 verbose etag http://192.168.1.200:4873/eslint-scope from cache
+335 verbose get saving eslint-scope to /Users/liwenqiang/.npm/192.168.1.200_4873/eslint-scope/.cache.json
+336 verbose correctMkdir /Users/liwenqiang/.npm correctMkdir not in flight; initializing
+337 http 304 http://192.168.1.200:4873/acorn-dynamic-import
+338 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+338 verbose headers   etag: '"265ee9868e634e959b45b55c00c60cf5"',
+338 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+338 verbose headers   date: 'Fri, 15 Jun 2018 02:55:52 GMT',
+338 verbose headers   connection: 'keep-alive' }
+339 silly get cb [ 304,
+339 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+339 silly get     etag: '"265ee9868e634e959b45b55c00c60cf5"',
+339 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+339 silly get     date: 'Fri, 15 Jun 2018 02:55:52 GMT',
+339 silly get     connection: 'keep-alive' } ]
+340 verbose etag http://192.168.1.200:4873/acorn-dynamic-import from cache
+341 verbose get saving acorn-dynamic-import to /Users/liwenqiang/.npm/192.168.1.200_4873/acorn-dynamic-import/.cache.json
+342 verbose correctMkdir /Users/liwenqiang/.npm correctMkdir not in flight; initializing
+343 http 304 http://192.168.1.200:4873/chrome-trace-event
+344 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+344 verbose headers   etag: '"e4f50d8cd5456d5febea3b25afffd201"',
+344 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+344 verbose headers   date: 'Fri, 15 Jun 2018 02:55:52 GMT',
+344 verbose headers   connection: 'keep-alive' }
+345 silly get cb [ 304,
+345 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+345 silly get     etag: '"e4f50d8cd5456d5febea3b25afffd201"',
+345 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+345 silly get     date: 'Fri, 15 Jun 2018 02:55:52 GMT',
+345 silly get     connection: 'keep-alive' } ]
+346 verbose etag http://192.168.1.200:4873/chrome-trace-event from cache
+347 verbose get saving chrome-trace-event to /Users/liwenqiang/.npm/192.168.1.200_4873/chrome-trace-event/.cache.json
+348 verbose correctMkdir /Users/liwenqiang/.npm correctMkdir not in flight; initializing
+349 silly resolveWithNewModule eslint-scope@3.7.1 checking installable status
+350 silly cache add args [ 'eslint-scope@^3.7.1', null ]
+351 verbose cache add spec eslint-scope@^3.7.1
+352 silly cache add parsed spec Result {
+352 silly cache add   raw: 'eslint-scope@^3.7.1',
+352 silly cache add   scope: null,
+352 silly cache add   escapedName: 'eslint-scope',
+352 silly cache add   name: 'eslint-scope',
+352 silly cache add   rawSpec: '^3.7.1',
+352 silly cache add   spec: '>=3.7.1 <4.0.0',
+352 silly cache add   type: 'range' }
+353 silly addNamed eslint-scope@>=3.7.1 <4.0.0
+354 verbose addNamed ">=3.7.1 <4.0.0" is a valid semver range for eslint-scope
+355 silly addNameRange { name: 'eslint-scope', range: '>=3.7.1 <4.0.0', hasData: false }
+356 silly mapToRegistry name eslint-scope
+357 silly mapToRegistry using default registry
+358 silly mapToRegistry registry http://192.168.1.200:4873/
+359 silly mapToRegistry data Result {
+359 silly mapToRegistry   raw: 'eslint-scope',
+359 silly mapToRegistry   scope: null,
+359 silly mapToRegistry   escapedName: 'eslint-scope',
+359 silly mapToRegistry   name: 'eslint-scope',
+359 silly mapToRegistry   rawSpec: '',
+359 silly mapToRegistry   spec: 'latest',
+359 silly mapToRegistry   type: 'tag' }
+360 silly mapToRegistry uri http://192.168.1.200:4873/eslint-scope
+361 verbose addNameRange registry:http://192.168.1.200:4873/eslint-scope not in flight; fetching
+362 silly resolveWithNewModule acorn@5.6.2 checking installable status
+363 silly cache add args [ 'acorn@^5.6.2', null ]
+364 verbose cache add spec acorn@^5.6.2
+365 silly cache add parsed spec Result {
+365 silly cache add   raw: 'acorn@^5.6.2',
+365 silly cache add   scope: null,
+365 silly cache add   escapedName: 'acorn',
+365 silly cache add   name: 'acorn',
+365 silly cache add   rawSpec: '^5.6.2',
+365 silly cache add   spec: '>=5.6.2 <6.0.0',
+365 silly cache add   type: 'range' }
+366 silly addNamed acorn@>=5.6.2 <6.0.0
+367 verbose addNamed ">=5.6.2 <6.0.0" is a valid semver range for acorn
+368 silly addNameRange { name: 'acorn', range: '>=5.6.2 <6.0.0', hasData: false }
+369 silly mapToRegistry name acorn
+370 silly mapToRegistry using default registry
+371 silly mapToRegistry registry http://192.168.1.200:4873/
+372 silly mapToRegistry data Result {
+372 silly mapToRegistry   raw: 'acorn',
+372 silly mapToRegistry   scope: null,
+372 silly mapToRegistry   escapedName: 'acorn',
+372 silly mapToRegistry   name: 'acorn',
+372 silly mapToRegistry   rawSpec: '',
+372 silly mapToRegistry   spec: 'latest',
+372 silly mapToRegistry   type: 'tag' }
+373 silly mapToRegistry uri http://192.168.1.200:4873/acorn
+374 verbose addNameRange registry:http://192.168.1.200:4873/acorn not in flight; fetching
+375 silly resolveWithNewModule acorn-dynamic-import@3.0.0 checking installable status
+376 silly cache add args [ 'acorn-dynamic-import@^3.0.0', null ]
+377 verbose cache add spec acorn-dynamic-import@^3.0.0
+378 silly cache add parsed spec Result {
+378 silly cache add   raw: 'acorn-dynamic-import@^3.0.0',
+378 silly cache add   scope: null,
+378 silly cache add   escapedName: 'acorn-dynamic-import',
+378 silly cache add   name: 'acorn-dynamic-import',
+378 silly cache add   rawSpec: '^3.0.0',
+378 silly cache add   spec: '>=3.0.0 <4.0.0',
+378 silly cache add   type: 'range' }
+379 silly addNamed acorn-dynamic-import@>=3.0.0 <4.0.0
+380 verbose addNamed ">=3.0.0 <4.0.0" is a valid semver range for acorn-dynamic-import
+381 silly addNameRange { name: 'acorn-dynamic-import',
+381 silly addNameRange   range: '>=3.0.0 <4.0.0',
+381 silly addNameRange   hasData: false }
+382 silly mapToRegistry name acorn-dynamic-import
+383 silly mapToRegistry using default registry
+384 silly mapToRegistry registry http://192.168.1.200:4873/
+385 silly mapToRegistry data Result {
+385 silly mapToRegistry   raw: 'acorn-dynamic-import',
+385 silly mapToRegistry   scope: null,
+385 silly mapToRegistry   escapedName: 'acorn-dynamic-import',
+385 silly mapToRegistry   name: 'acorn-dynamic-import',
+385 silly mapToRegistry   rawSpec: '',
+385 silly mapToRegistry   spec: 'latest',
+385 silly mapToRegistry   type: 'tag' }
+386 silly mapToRegistry uri http://192.168.1.200:4873/acorn-dynamic-import
+387 verbose addNameRange registry:http://192.168.1.200:4873/acorn-dynamic-import not in flight; fetching
+388 verbose get http://192.168.1.200:4873/eslint-scope not expired, no request
+389 silly addNameRange number 2 { name: 'eslint-scope', range: '>=3.7.1 <4.0.0', hasData: true }
+390 silly addNameRange versions [ 'eslint-scope',
+390 silly addNameRange   [ '3.7.1', '3.7.0', '4.0.0-alpha.0', '4.0.0-rc.0' ] ]
+391 silly addNamed eslint-scope@3.7.1
+392 verbose addNamed "3.7.1" is a plain semver version for eslint-scope
+393 verbose get http://192.168.1.200:4873/acorn not expired, no request
+394 silly addNameRange number 2 { name: 'acorn', range: '>=5.6.2 <6.0.0', hasData: true }
+395 silly addNameRange versions [ 'acorn',
+395 silly addNameRange   [ '0.0.1',
+395 silly addNameRange     '0.1.0',
+395 silly addNameRange     '0.2.0',
+395 silly addNameRange     '0.3.0',
+395 silly addNameRange     '0.3.1',
+395 silly addNameRange     '0.4.0',
+395 silly addNameRange     '0.4.2',
+395 silly addNameRange     '0.5.0',
+395 silly addNameRange     '0.6.0',
+395 silly addNameRange     '0.7.0',
+395 silly addNameRange     '0.8.0',
+395 silly addNameRange     '0.9.0',
+395 silly addNameRange     '0.10.0',
+395 silly addNameRange     '0.11.0',
+395 silly addNameRange     '0.12.0',
+395 silly addNameRange     '1.0.0',
+395 silly addNameRange     '1.0.1',
+395 silly addNameRange     '1.0.3',
+395 silly addNameRange     '1.1.0',
+395 silly addNameRange     '1.2.0',
+395 silly addNameRange     '2.0.0',
+395 silly addNameRange     '1.2.1',
+395 silly addNameRange     '2.0.1',
+395 silly addNameRange     '1.2.2',
+395 silly addNameRange     '2.0.4',
+395 silly addNameRange     '2.1.0',
+395 silly addNameRange     '2.2.0',
+395 silly addNameRange     '2.3.0',
+395 silly addNameRange     '2.4.0',
+395 silly addNameRange     '2.5.0',
+395 silly addNameRange     '2.5.2',
+395 silly addNameRange     '2.6.0',
+395 silly addNameRange     '2.6.2',
+395 silly addNameRange     '2.6.4',
+395 silly addNameRange     '2.7.0',
+395 silly addNameRange     '3.0.0',
+395 silly addNameRange     '3.0.2',
+395 silly addNameRange     '3.0.4',
+395 silly addNameRange     '3.1.0',
+395 silly addNameRange     '3.2.0',
+395 silly addNameRange     '3.3.0',
+395 silly addNameRange     '4.0.0',
+395 silly addNameRange     '4.0.1',
+395 silly addNameRange     '4.0.2',
+395 silly addNameRange     '4.0.3',
+395 silly addNameRange     '4.0.4',
+395 silly addNameRange     '4.0.5',
+395 silly addNameRange     '4.0.6',
+395 silly addNameRange     '4.0.7',
+395 silly addNameRange     '4.0.8',
+395 silly addNameRange     '4.0.9',
+395 silly addNameRange     '4.0.10',
+395 silly addNameRange     '4.0.11',
+395 silly addNameRange     '5.0.0',
+395 silly addNameRange     '5.0.1',
+395 silly addNameRange     '5.0.2',
+395 silly addNameRange     '5.0.3',
+395 silly addNameRange     '4.0.13',
+395 silly addNameRange     '5.1.0',
+395 silly addNameRange     '5.1.1',
+395 silly addNameRange     '5.1.2',
+395 silly addNameRange     '5.2.1',
+395 silly addNameRange     '5.2.0',
+395 silly addNameRange     '5.3.0',
+395 silly addNameRange     '5.4.0',
+395 silly addNameRange     '5.4.1',
+395 silly addNameRange     '5.5.0',
+395 silly addNameRange     '5.5.1',
+395 silly addNameRange     '5.5.2',
+395 silly addNameRange     '5.5.3',
+395 silly addNameRange     '5.6.0',
+395 silly addNameRange     '5.6.1',
+395 silly addNameRange     '5.6.2' ] ]
+396 silly addNamed acorn@5.6.2
+397 verbose addNamed "5.6.2" is a plain semver version for acorn
+398 verbose get http://192.168.1.200:4873/acorn-dynamic-import not expired, no request
+399 silly addNameRange number 2 { name: 'acorn-dynamic-import',
+399 silly addNameRange   range: '>=3.0.0 <4.0.0',
+399 silly addNameRange   hasData: true }
+400 silly addNameRange versions [ 'acorn-dynamic-import',
+400 silly addNameRange   [ '2.0.2', '2.0.1', '2.0.0', '1.0.1', '1.0.0', '3.0.0' ] ]
+401 silly addNamed acorn-dynamic-import@3.0.0
+402 verbose addNamed "3.0.0" is a plain semver version for acorn-dynamic-import
+403 http 304 http://192.168.1.200:4873/json-parse-better-errors
+404 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+404 verbose headers   etag: '"b8ce819149c11e2a3ee0c7ee32cec650"',
+404 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+404 verbose headers   date: 'Fri, 15 Jun 2018 02:55:52 GMT',
+404 verbose headers   connection: 'keep-alive' }
+405 silly get cb [ 304,
+405 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+405 silly get     etag: '"b8ce819149c11e2a3ee0c7ee32cec650"',
+405 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+405 silly get     date: 'Fri, 15 Jun 2018 02:55:52 GMT',
+405 silly get     connection: 'keep-alive' } ]
+406 verbose etag http://192.168.1.200:4873/json-parse-better-errors from cache
+407 verbose get saving json-parse-better-errors to /Users/liwenqiang/.npm/192.168.1.200_4873/json-parse-better-errors/.cache.json
+408 verbose correctMkdir /Users/liwenqiang/.npm correctMkdir not in flight; initializing
+409 silly cache afterAdd eslint-scope@3.7.1
+410 verbose afterAdd /Users/liwenqiang/.npm/eslint-scope/3.7.1/package/package.json not in flight; writing
+411 verbose correctMkdir /Users/liwenqiang/.npm correctMkdir not in flight; initializing
+412 silly cache afterAdd acorn-dynamic-import@3.0.0
+413 verbose afterAdd /Users/liwenqiang/.npm/acorn-dynamic-import/3.0.0/package/package.json not in flight; writing
+414 verbose correctMkdir /Users/liwenqiang/.npm correctMkdir not in flight; initializing
+415 silly cache afterAdd acorn@5.6.2
+416 verbose afterAdd /Users/liwenqiang/.npm/acorn/5.6.2/package/package.json not in flight; writing
+417 verbose correctMkdir /Users/liwenqiang/.npm correctMkdir not in flight; initializing
+418 silly resolveWithNewModule chrome-trace-event@1.0.0 checking installable status
+419 silly cache add args [ 'chrome-trace-event@^1.0.0', null ]
+420 verbose cache add spec chrome-trace-event@^1.0.0
+421 silly cache add parsed spec Result {
+421 silly cache add   raw: 'chrome-trace-event@^1.0.0',
+421 silly cache add   scope: null,
+421 silly cache add   escapedName: 'chrome-trace-event',
+421 silly cache add   name: 'chrome-trace-event',
+421 silly cache add   rawSpec: '^1.0.0',
+421 silly cache add   spec: '>=1.0.0 <2.0.0',
+421 silly cache add   type: 'range' }
+422 silly addNamed chrome-trace-event@>=1.0.0 <2.0.0
+423 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for chrome-trace-event
+424 silly addNameRange { name: 'chrome-trace-event',
+424 silly addNameRange   range: '>=1.0.0 <2.0.0',
+424 silly addNameRange   hasData: false }
+425 silly mapToRegistry name chrome-trace-event
+426 silly mapToRegistry using default registry
+427 silly mapToRegistry registry http://192.168.1.200:4873/
+428 silly mapToRegistry data Result {
+428 silly mapToRegistry   raw: 'chrome-trace-event',
+428 silly mapToRegistry   scope: null,
+428 silly mapToRegistry   escapedName: 'chrome-trace-event',
+428 silly mapToRegistry   name: 'chrome-trace-event',
+428 silly mapToRegistry   rawSpec: '',
+428 silly mapToRegistry   spec: 'latest',
+428 silly mapToRegistry   type: 'tag' }
+429 silly mapToRegistry uri http://192.168.1.200:4873/chrome-trace-event
+430 verbose addNameRange registry:http://192.168.1.200:4873/chrome-trace-event not in flight; fetching
+431 verbose get http://192.168.1.200:4873/chrome-trace-event not expired, no request
+432 silly addNameRange number 2 { name: 'chrome-trace-event',
+432 silly addNameRange   range: '>=1.0.0 <2.0.0',
+432 silly addNameRange   hasData: true }
+433 silly addNameRange versions [ 'chrome-trace-event',
+433 silly addNameRange   [ '0.1.0', '0.1.1', '0.1.2', '0.1.3', '1.0.0' ] ]
+434 silly addNamed chrome-trace-event@1.0.0
+435 verbose addNamed "1.0.0" is a plain semver version for chrome-trace-event
+436 silly resolveWithNewModule json-parse-better-errors@1.0.2 checking installable status
+437 silly cache add args [ 'json-parse-better-errors@^1.0.2', null ]
+438 verbose cache add spec json-parse-better-errors@^1.0.2
+439 silly cache add parsed spec Result {
+439 silly cache add   raw: 'json-parse-better-errors@^1.0.2',
+439 silly cache add   scope: null,
+439 silly cache add   escapedName: 'json-parse-better-errors',
+439 silly cache add   name: 'json-parse-better-errors',
+439 silly cache add   rawSpec: '^1.0.2',
+439 silly cache add   spec: '>=1.0.2 <2.0.0',
+439 silly cache add   type: 'range' }
+440 silly addNamed json-parse-better-errors@>=1.0.2 <2.0.0
+441 verbose addNamed ">=1.0.2 <2.0.0" is a valid semver range for json-parse-better-errors
+442 silly addNameRange { name: 'json-parse-better-errors',
+442 silly addNameRange   range: '>=1.0.2 <2.0.0',
+442 silly addNameRange   hasData: false }
+443 silly mapToRegistry name json-parse-better-errors
+444 silly mapToRegistry using default registry
+445 silly mapToRegistry registry http://192.168.1.200:4873/
+446 silly mapToRegistry data Result {
+446 silly mapToRegistry   raw: 'json-parse-better-errors',
+446 silly mapToRegistry   scope: null,
+446 silly mapToRegistry   escapedName: 'json-parse-better-errors',
+446 silly mapToRegistry   name: 'json-parse-better-errors',
+446 silly mapToRegistry   rawSpec: '',
+446 silly mapToRegistry   spec: 'latest',
+446 silly mapToRegistry   type: 'tag' }
+447 silly mapToRegistry uri http://192.168.1.200:4873/json-parse-better-errors
+448 verbose addNameRange registry:http://192.168.1.200:4873/json-parse-better-errors not in flight; fetching
+449 verbose afterAdd /Users/liwenqiang/.npm/eslint-scope/3.7.1/package/package.json written
+450 verbose afterAdd /Users/liwenqiang/.npm/acorn-dynamic-import/3.0.0/package/package.json written
+451 verbose afterAdd /Users/liwenqiang/.npm/acorn/5.6.2/package/package.json written
+452 silly cache afterAdd chrome-trace-event@1.0.0
+453 verbose afterAdd /Users/liwenqiang/.npm/chrome-trace-event/1.0.0/package/package.json not in flight; writing
+454 verbose correctMkdir /Users/liwenqiang/.npm correctMkdir not in flight; initializing
+455 verbose get http://192.168.1.200:4873/json-parse-better-errors not expired, no request
+456 silly addNameRange number 2 { name: 'json-parse-better-errors',
+456 silly addNameRange   range: '>=1.0.2 <2.0.0',
+456 silly addNameRange   hasData: true }
+457 silly addNameRange versions [ 'json-parse-better-errors', [ '1.0.0', '1.0.1', '1.0.2' ] ]
+458 silly addNamed json-parse-better-errors@1.0.2
+459 verbose addNamed "1.0.2" is a plain semver version for json-parse-better-errors
+460 verbose afterAdd /Users/liwenqiang/.npm/chrome-trace-event/1.0.0/package/package.json written
+461 silly cache afterAdd json-parse-better-errors@1.0.2
+462 verbose afterAdd /Users/liwenqiang/.npm/json-parse-better-errors/1.0.2/package/package.json not in flight; writing
+463 verbose correctMkdir /Users/liwenqiang/.npm correctMkdir not in flight; initializing
+464 verbose afterAdd /Users/liwenqiang/.npm/json-parse-better-errors/1.0.2/package/package.json written
+465 http 304 http://192.168.1.200:4873/enhanced-resolve
+466 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+466 verbose headers   etag: '"ed31b76b69298781d87583b85bca1140"',
+466 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+466 verbose headers   date: 'Fri, 15 Jun 2018 02:55:52 GMT',
+466 verbose headers   connection: 'keep-alive' }
+467 silly get cb [ 304,
+467 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+467 silly get     etag: '"ed31b76b69298781d87583b85bca1140"',
+467 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+467 silly get     date: 'Fri, 15 Jun 2018 02:55:52 GMT',
+467 silly get     connection: 'keep-alive' } ]
+468 verbose etag http://192.168.1.200:4873/enhanced-resolve from cache
+469 verbose get saving enhanced-resolve to /Users/liwenqiang/.npm/192.168.1.200_4873/enhanced-resolve/.cache.json
+470 verbose correctMkdir /Users/liwenqiang/.npm correctMkdir not in flight; initializing
+471 silly resolveWithNewModule enhanced-resolve@4.0.0 checking installable status
+472 silly cache add args [ 'enhanced-resolve@^4.0.0', null ]
+473 verbose cache add spec enhanced-resolve@^4.0.0
+474 silly cache add parsed spec Result {
+474 silly cache add   raw: 'enhanced-resolve@^4.0.0',
+474 silly cache add   scope: null,
+474 silly cache add   escapedName: 'enhanced-resolve',
+474 silly cache add   name: 'enhanced-resolve',
+474 silly cache add   rawSpec: '^4.0.0',
+474 silly cache add   spec: '>=4.0.0 <5.0.0',
+474 silly cache add   type: 'range' }
+475 silly addNamed enhanced-resolve@>=4.0.0 <5.0.0
+476 verbose addNamed ">=4.0.0 <5.0.0" is a valid semver range for enhanced-resolve
+477 silly addNameRange { name: 'enhanced-resolve',
+477 silly addNameRange   range: '>=4.0.0 <5.0.0',
+477 silly addNameRange   hasData: false }
+478 silly mapToRegistry name enhanced-resolve
+479 silly mapToRegistry using default registry
+480 silly mapToRegistry registry http://192.168.1.200:4873/
+481 silly mapToRegistry data Result {
+481 silly mapToRegistry   raw: 'enhanced-resolve',
+481 silly mapToRegistry   scope: null,
+481 silly mapToRegistry   escapedName: 'enhanced-resolve',
+481 silly mapToRegistry   name: 'enhanced-resolve',
+481 silly mapToRegistry   rawSpec: '',
+481 silly mapToRegistry   spec: 'latest',
+481 silly mapToRegistry   type: 'tag' }
+482 silly mapToRegistry uri http://192.168.1.200:4873/enhanced-resolve
+483 verbose addNameRange registry:http://192.168.1.200:4873/enhanced-resolve not in flight; fetching
+484 verbose get http://192.168.1.200:4873/enhanced-resolve not expired, no request
+485 silly addNameRange number 2 { name: 'enhanced-resolve',
+485 silly addNameRange   range: '>=4.0.0 <5.0.0',
+485 silly addNameRange   hasData: true }
+486 silly addNameRange versions [ 'enhanced-resolve',
+486 silly addNameRange   [ '0.2.0',
+486 silly addNameRange     '0.2.1',
+486 silly addNameRange     '0.2.2',
+486 silly addNameRange     '0.2.3',
+486 silly addNameRange     '0.2.4',
+486 silly addNameRange     '0.2.5',
+486 silly addNameRange     '0.2.6',
+486 silly addNameRange     '0.2.7',
+486 silly addNameRange     '0.2.8',
+486 silly addNameRange     '0.2.9',
+486 silly addNameRange     '0.3.0',
+486 silly addNameRange     '0.3.1',
+486 silly addNameRange     '0.4.0',
+486 silly addNameRange     '0.4.1',
+486 silly addNameRange     '0.4.2',
+486 silly addNameRange     '0.4.4',
+486 silly addNameRange     '0.4.5',
+486 silly addNameRange     '0.4.6',
+486 silly addNameRange     '0.4.7',
+486 silly addNameRange     '0.4.8',
+486 silly addNameRange     '0.4.9',
+486 silly addNameRange     '0.4.10',
+486 silly addNameRange     '0.4.11',
+486 silly addNameRange     '0.4.12',
+486 silly addNameRange     '0.5.0',
+486 silly addNameRange     '0.5.1',
+486 silly addNameRange     '0.5.2',
+486 silly addNameRange     '0.5.3',
+486 silly addNameRange     '0.5.4',
+486 silly addNameRange     '0.5.5',
+486 silly addNameRange     '0.5.6',
+486 silly addNameRange     '0.5.7',
+486 silly addNameRange     '0.5.8',
+486 silly addNameRange     '0.5.9',
+486 silly addNameRange     '0.5.10',
+486 silly addNameRange     '0.5.11',
+486 silly addNameRange     '0.5.12',
+486 silly addNameRange     '0.5.13',
+486 silly addNameRange     '0.5.14',
+486 silly addNameRange     '0.5.15',
+486 silly addNameRange     '0.6.0',
+486 silly addNameRange     '0.6.1',
+486 silly addNameRange     '0.7.0',
+486 silly addNameRange     '0.7.1',
+486 silly addNameRange     '0.7.2',
+486 silly addNameRange     '0.7.3',
+486 silly addNameRange     '0.7.4',
+486 silly addNameRange     '0.7.5',
+486 silly addNameRange     '0.7.6',
+486 silly addNameRange     '0.8.0',
+486 silly addNameRange     '0.8.1',
+486 silly addNameRange     '0.8.2',
+486 silly addNameRange     '0.8.3',
+486 silly addNameRange     '0.8.4',
+486 silly addNameRange     '0.8.5',
+486 silly addNameRange     '0.8.6',
+486 silly addNameRange     '0.9.0',
+486 silly addNameRange     '0.9.1',
+486 silly addNameRange     '2.0.0',
+486 silly addNameRange     '2.0.1',
+486 silly addNameRange     '2.0.2',
+486 silly addNameRange     '2.1.0',
+486 silly addNameRange     '2.2.0',
+486 silly addNameRange     '2.2.1',
+486 silly addNameRange     '2.2.2',
+486 silly addNameRange     '2.3.0',
+486 silly addNameRange     '3.0.0',
+486 silly addNameRange     '3.0.1',
+486 silly addNameRange     '3.0.2',
+486 silly addNameRange     '3.0.3',
+486 silly addNameRange     '3.1.0',
+486 silly addNameRange     '3.3.0',
+486 silly addNameRange     '3.2.0',
+486 silly addNameRange     '3.4.1',
+486 silly addNameRange     '3.4.0',
+486 silly addNameRange     '4.0.0-beta.2',
+486 silly addNameRange     '4.0.0-beta.1',
+486 silly addNameRange     '4.0.0-beta.4',
+486 silly addNameRange     '4.0.0-beta.3',
+486 silly addNameRange     '4.0.0' ] ]
+487 silly addNamed enhanced-resolve@4.0.0
+488 verbose addNamed "4.0.0" is a plain semver version for enhanced-resolve
+489 silly cache afterAdd enhanced-resolve@4.0.0
+490 verbose afterAdd /Users/liwenqiang/.npm/enhanced-resolve/4.0.0/package/package.json not in flight; writing
+491 verbose correctMkdir /Users/liwenqiang/.npm correctMkdir not in flight; initializing
+492 verbose afterAdd /Users/liwenqiang/.npm/enhanced-resolve/4.0.0/package/package.json written
+493 http 304 http://192.168.1.200:4873/memory-fs
+494 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+494 verbose headers   etag: '"879c7060cfbb32a2757f056205245769"',
+494 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+494 verbose headers   date: 'Fri, 15 Jun 2018 02:55:52 GMT',
+494 verbose headers   connection: 'keep-alive' }
+495 silly get cb [ 304,
+495 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+495 silly get     etag: '"879c7060cfbb32a2757f056205245769"',
+495 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+495 silly get     date: 'Fri, 15 Jun 2018 02:55:52 GMT',
+495 silly get     connection: 'keep-alive' } ]
+496 verbose etag http://192.168.1.200:4873/memory-fs from cache
+497 verbose get saving memory-fs to /Users/liwenqiang/.npm/192.168.1.200_4873/memory-fs/.cache.json
+498 verbose correctMkdir /Users/liwenqiang/.npm correctMkdir not in flight; initializing
+499 http 304 http://192.168.1.200:4873/loader-runner
+500 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+500 verbose headers   etag: '"7bcddd2bc6815e4d7a3e031a773c39e2"',
+500 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+500 verbose headers   date: 'Fri, 15 Jun 2018 02:55:52 GMT',
+500 verbose headers   connection: 'keep-alive' }
+501 silly get cb [ 304,
+501 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+501 silly get     etag: '"7bcddd2bc6815e4d7a3e031a773c39e2"',
+501 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+501 silly get     date: 'Fri, 15 Jun 2018 02:55:52 GMT',
+501 silly get     connection: 'keep-alive' } ]
+502 verbose etag http://192.168.1.200:4873/loader-runner from cache
+503 verbose get saving loader-runner to /Users/liwenqiang/.npm/192.168.1.200_4873/loader-runner/.cache.json
+504 verbose correctMkdir /Users/liwenqiang/.npm correctMkdir not in flight; initializing
+505 silly resolveWithNewModule memory-fs@0.4.1 checking installable status
+506 silly cache add args [ 'memory-fs@~0.4.1', null ]
+507 verbose cache add spec memory-fs@~0.4.1
+508 silly cache add parsed spec Result {
+508 silly cache add   raw: 'memory-fs@~0.4.1',
+508 silly cache add   scope: null,
+508 silly cache add   escapedName: 'memory-fs',
+508 silly cache add   name: 'memory-fs',
+508 silly cache add   rawSpec: '~0.4.1',
+508 silly cache add   spec: '>=0.4.1 <0.5.0',
+508 silly cache add   type: 'range' }
+509 silly addNamed memory-fs@>=0.4.1 <0.5.0
+510 verbose addNamed ">=0.4.1 <0.5.0" is a valid semver range for memory-fs
+511 silly addNameRange { name: 'memory-fs', range: '>=0.4.1 <0.5.0', hasData: false }
+512 silly mapToRegistry name memory-fs
+513 silly mapToRegistry using default registry
+514 silly mapToRegistry registry http://192.168.1.200:4873/
+515 silly mapToRegistry data Result {
+515 silly mapToRegistry   raw: 'memory-fs',
+515 silly mapToRegistry   scope: null,
+515 silly mapToRegistry   escapedName: 'memory-fs',
+515 silly mapToRegistry   name: 'memory-fs',
+515 silly mapToRegistry   rawSpec: '',
+515 silly mapToRegistry   spec: 'latest',
+515 silly mapToRegistry   type: 'tag' }
+516 silly mapToRegistry uri http://192.168.1.200:4873/memory-fs
+517 verbose addNameRange registry:http://192.168.1.200:4873/memory-fs not in flight; fetching
+518 silly resolveWithNewModule loader-runner@2.3.0 checking installable status
+519 silly cache add args [ 'loader-runner@^2.3.0', null ]
+520 verbose cache add spec loader-runner@^2.3.0
+521 silly cache add parsed spec Result {
+521 silly cache add   raw: 'loader-runner@^2.3.0',
+521 silly cache add   scope: null,
+521 silly cache add   escapedName: 'loader-runner',
+521 silly cache add   name: 'loader-runner',
+521 silly cache add   rawSpec: '^2.3.0',
+521 silly cache add   spec: '>=2.3.0 <3.0.0',
+521 silly cache add   type: 'range' }
+522 silly addNamed loader-runner@>=2.3.0 <3.0.0
+523 verbose addNamed ">=2.3.0 <3.0.0" is a valid semver range for loader-runner
+524 silly addNameRange { name: 'loader-runner',
+524 silly addNameRange   range: '>=2.3.0 <3.0.0',
+524 silly addNameRange   hasData: false }
+525 silly mapToRegistry name loader-runner
+526 silly mapToRegistry using default registry
+527 silly mapToRegistry registry http://192.168.1.200:4873/
+528 silly mapToRegistry data Result {
+528 silly mapToRegistry   raw: 'loader-runner',
+528 silly mapToRegistry   scope: null,
+528 silly mapToRegistry   escapedName: 'loader-runner',
+528 silly mapToRegistry   name: 'loader-runner',
+528 silly mapToRegistry   rawSpec: '',
+528 silly mapToRegistry   spec: 'latest',
+528 silly mapToRegistry   type: 'tag' }
+529 silly mapToRegistry uri http://192.168.1.200:4873/loader-runner
+530 verbose addNameRange registry:http://192.168.1.200:4873/loader-runner not in flight; fetching
+531 verbose get http://192.168.1.200:4873/memory-fs not expired, no request
+532 silly addNameRange number 2 { name: 'memory-fs', range: '>=0.4.1 <0.5.0', hasData: true }
+533 silly addNameRange versions [ 'memory-fs',
+533 silly addNameRange   [ '0.1.0', '0.1.1', '0.2.0', '0.3.0', '0.4.0', '0.4.1' ] ]
+534 silly addNamed memory-fs@0.4.1
+535 verbose addNamed "0.4.1" is a plain semver version for memory-fs
+536 verbose get http://192.168.1.200:4873/loader-runner not expired, no request
+537 silly addNameRange number 2 { name: 'loader-runner', range: '>=2.3.0 <3.0.0', hasData: true }
+538 silly addNameRange versions [ 'loader-runner',
+538 silly addNameRange   [ '2.3.0', '2.2.0', '2.1.1', '2.1.0', '2.0.1', '2.0.0' ] ]
+539 silly addNamed loader-runner@2.3.0
+540 verbose addNamed "2.3.0" is a plain semver version for loader-runner
+541 silly cache afterAdd memory-fs@0.4.1
+542 verbose afterAdd /Users/liwenqiang/.npm/memory-fs/0.4.1/package/package.json not in flight; writing
+543 verbose correctMkdir /Users/liwenqiang/.npm correctMkdir not in flight; initializing
+544 silly cache afterAdd loader-runner@2.3.0
+545 verbose afterAdd /Users/liwenqiang/.npm/loader-runner/2.3.0/package/package.json not in flight; writing
+546 verbose correctMkdir /Users/liwenqiang/.npm correctMkdir not in flight; initializing
+547 verbose afterAdd /Users/liwenqiang/.npm/memory-fs/0.4.1/package/package.json written
+548 verbose afterAdd /Users/liwenqiang/.npm/loader-runner/2.3.0/package/package.json written
+549 http 304 http://192.168.1.200:4873/neo-async
+550 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+550 verbose headers   etag: '"920f0364d780b571515745e13d6c11a7"',
+550 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+550 verbose headers   date: 'Fri, 15 Jun 2018 02:55:52 GMT',
+550 verbose headers   connection: 'keep-alive' }
+551 silly get cb [ 304,
+551 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+551 silly get     etag: '"920f0364d780b571515745e13d6c11a7"',
+551 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+551 silly get     date: 'Fri, 15 Jun 2018 02:55:52 GMT',
+551 silly get     connection: 'keep-alive' } ]
+552 verbose etag http://192.168.1.200:4873/neo-async from cache
+553 verbose get saving neo-async to /Users/liwenqiang/.npm/192.168.1.200_4873/neo-async/.cache.json
+554 verbose correctMkdir /Users/liwenqiang/.npm correctMkdir not in flight; initializing
+555 silly resolveWithNewModule neo-async@2.5.1 checking installable status
+556 silly cache add args [ 'neo-async@^2.5.0', null ]
+557 verbose cache add spec neo-async@^2.5.0
+558 silly cache add parsed spec Result {
+558 silly cache add   raw: 'neo-async@^2.5.0',
+558 silly cache add   scope: null,
+558 silly cache add   escapedName: 'neo-async',
+558 silly cache add   name: 'neo-async',
+558 silly cache add   rawSpec: '^2.5.0',
+558 silly cache add   spec: '>=2.5.0 <3.0.0',
+558 silly cache add   type: 'range' }
+559 silly addNamed neo-async@>=2.5.0 <3.0.0
+560 verbose addNamed ">=2.5.0 <3.0.0" is a valid semver range for neo-async
+561 silly addNameRange { name: 'neo-async', range: '>=2.5.0 <3.0.0', hasData: false }
+562 silly mapToRegistry name neo-async
+563 silly mapToRegistry using default registry
+564 silly mapToRegistry registry http://192.168.1.200:4873/
+565 silly mapToRegistry data Result {
+565 silly mapToRegistry   raw: 'neo-async',
+565 silly mapToRegistry   scope: null,
+565 silly mapToRegistry   escapedName: 'neo-async',
+565 silly mapToRegistry   name: 'neo-async',
+565 silly mapToRegistry   rawSpec: '',
+565 silly mapToRegistry   spec: 'latest',
+565 silly mapToRegistry   type: 'tag' }
+566 silly mapToRegistry uri http://192.168.1.200:4873/neo-async
+567 verbose addNameRange registry:http://192.168.1.200:4873/neo-async not in flight; fetching
+568 http 304 http://192.168.1.200:4873/node-libs-browser
+569 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+569 verbose headers   etag: '"2ba45652d936a8ac4afb6355fdc979be"',
+569 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+569 verbose headers   date: 'Fri, 15 Jun 2018 02:55:52 GMT',
+569 verbose headers   connection: 'keep-alive' }
+570 silly get cb [ 304,
+570 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+570 silly get     etag: '"2ba45652d936a8ac4afb6355fdc979be"',
+570 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+570 silly get     date: 'Fri, 15 Jun 2018 02:55:52 GMT',
+570 silly get     connection: 'keep-alive' } ]
+571 verbose etag http://192.168.1.200:4873/node-libs-browser from cache
+572 verbose get saving node-libs-browser to /Users/liwenqiang/.npm/192.168.1.200_4873/node-libs-browser/.cache.json
+573 verbose correctMkdir /Users/liwenqiang/.npm correctMkdir not in flight; initializing
+574 verbose get http://192.168.1.200:4873/neo-async not expired, no request
+575 silly addNameRange number 2 { name: 'neo-async', range: '>=2.5.0 <3.0.0', hasData: true }
+576 silly addNameRange versions [ 'neo-async',
+576 silly addNameRange   [ '0.1.0',
+576 silly addNameRange     '0.1.1',
+576 silly addNameRange     '0.2.0',
+576 silly addNameRange     '0.2.2',
+576 silly addNameRange     '0.2.3',
+576 silly addNameRange     '0.2.4',
+576 silly addNameRange     '0.2.5',
+576 silly addNameRange     '0.2.6',
+576 silly addNameRange     '0.2.7',
+576 silly addNameRange     '0.2.8',
+576 silly addNameRange     '0.2.9',
+576 silly addNameRange     '0.2.10',
+576 silly addNameRange     '0.2.11',
+576 silly addNameRange     '0.3.0',
+576 silly addNameRange     '0.3.1',
+576 silly addNameRange     '0.3.2',
+576 silly addNameRange     '0.3.3',
+576 silly addNameRange     '0.3.4',
+576 silly addNameRange     '0.4.0',
+576 silly addNameRange     '0.4.1',
+576 silly addNameRange     '0.4.2',
+576 silly addNameRange     '0.4.3',
+576 silly addNameRange     '0.4.4',
+576 silly addNameRange     '0.4.5',
+576 silly addNameRange     '0.4.6',
+576 silly addNameRange     '0.4.7',
+576 silly addNameRange     '0.4.8',
+576 silly addNameRange     '0.4.9',
+576 silly addNameRange     '0.5.0',
+576 silly addNameRange     '0.5.1',
+576 silly addNameRange     '0.5.2',
+576 silly addNameRange     '0.5.3',
+576 silly addNameRange     '0.6.0',
+576 silly addNameRange     '0.6.1',
+576 silly addNameRange     '0.6.2',
+576 silly addNameRange     '0.6.3',
+576 silly addNameRange     '0.6.4',
+576 silly addNameRange     '1.0.0',
+576 silly addNameRange     '1.0.1',
+576 silly addNameRange     '1.1.0',
+576 silly addNameRange     '1.1.1',
+576 silly addNameRange     '1.1.2',
+576 silly addNameRange     '1.2.0',
+576 silly addNameRange     '0.6.5',
+576 silly addNameRange     '1.2.1',
+576 silly addNameRange     '1.3.0',
+576 silly addNameRange     '1.3.1',
+576 silly addNameRange     '1.3.2',
+576 silly addNameRange     '1.4.0',
+576 silly addNameRange     '1.4.1',
+576 silly addNameRange     '1.5.0',
+576 silly addNameRange     '1.5.1',
+576 silly addNameRange     '1.6.0',
+576 silly addNameRange     '1.7.0',
+576 silly addNameRange     '1.7.1',
+576 silly addNameRange     '1.7.2',
+576 silly addNameRange     '1.7.3',
+576 silly addNameRange     '1.7.4',
+576 silly addNameRange     '1.7.5',
+576 silly addNameRange     '1.8.0',
+576 silly addNameRange     '1.8.1',
+576 silly addNameRange     '1.8.2',
+576 silly addNameRange     '2.0.0-rc.1',
+576 silly addNameRange     '2.0.0',
+576 silly addNameRange     '2.0.1',
+576 silly addNameRange     '2.1.0',
+576 silly addNameRange     '2.2.0',
+576 silly addNameRange     '2.2.2',
+576 silly addNameRange     '2.3.0',
+576 silly addNameRange     '2.4.0-0',
+576 silly addNameRange     '2.4.0',
+576 silly addNameRange     '2.5.0',
+576 silly addNameRange     '2.5.1' ] ]
+577 silly addNamed neo-async@2.5.1
+578 verbose addNamed "2.5.1" is a plain semver version for neo-async
+579 silly cache afterAdd neo-async@2.5.1
+580 verbose afterAdd /Users/liwenqiang/.npm/neo-async/2.5.1/package/package.json not in flight; writing
+581 verbose correctMkdir /Users/liwenqiang/.npm correctMkdir not in flight; initializing
+582 silly resolveWithNewModule node-libs-browser@2.1.0 checking installable status
+583 silly cache add args [ 'node-libs-browser@^2.0.0', null ]
+584 verbose cache add spec node-libs-browser@^2.0.0
+585 silly cache add parsed spec Result {
+585 silly cache add   raw: 'node-libs-browser@^2.0.0',
+585 silly cache add   scope: null,
+585 silly cache add   escapedName: 'node-libs-browser',
+585 silly cache add   name: 'node-libs-browser',
+585 silly cache add   rawSpec: '^2.0.0',
+585 silly cache add   spec: '>=2.0.0 <3.0.0',
+585 silly cache add   type: 'range' }
+586 silly addNamed node-libs-browser@>=2.0.0 <3.0.0
+587 verbose addNamed ">=2.0.0 <3.0.0" is a valid semver range for node-libs-browser
+588 silly addNameRange { name: 'node-libs-browser',
+588 silly addNameRange   range: '>=2.0.0 <3.0.0',
+588 silly addNameRange   hasData: false }
+589 silly mapToRegistry name node-libs-browser
+590 silly mapToRegistry using default registry
+591 silly mapToRegistry registry http://192.168.1.200:4873/
+592 silly mapToRegistry data Result {
+592 silly mapToRegistry   raw: 'node-libs-browser',
+592 silly mapToRegistry   scope: null,
+592 silly mapToRegistry   escapedName: 'node-libs-browser',
+592 silly mapToRegistry   name: 'node-libs-browser',
+592 silly mapToRegistry   rawSpec: '',
+592 silly mapToRegistry   spec: 'latest',
+592 silly mapToRegistry   type: 'tag' }
+593 silly mapToRegistry uri http://192.168.1.200:4873/node-libs-browser
+594 verbose addNameRange registry:http://192.168.1.200:4873/node-libs-browser not in flight; fetching
+595 verbose get http://192.168.1.200:4873/node-libs-browser not expired, no request
+596 silly addNameRange number 2 { name: 'node-libs-browser',
+596 silly addNameRange   range: '>=2.0.0 <3.0.0',
+596 silly addNameRange   hasData: true }
+597 silly addNameRange versions [ 'node-libs-browser',
+597 silly addNameRange   [ '0.1.0',
+597 silly addNameRange     '0.1.1',
+597 silly addNameRange     '0.1.2',
+597 silly addNameRange     '0.2.0',
+597 silly addNameRange     '0.2.1',
+597 silly addNameRange     '0.3.0',
+597 silly addNameRange     '0.3.1',
+597 silly addNameRange     '0.4.0',
+597 silly addNameRange     '0.4.1',
+597 silly addNameRange     '0.4.2',
+597 silly addNameRange     '0.4.3',
+597 silly addNameRange     '0.5.0',
+597 silly addNameRange     '0.5.1',
+597 silly addNameRange     '0.5.2',
+597 silly addNameRange     '0.5.3',
+597 silly addNameRange     '1.0.0',
+597 silly addNameRange     '0.6.0',
+597 silly addNameRange     '1.1.0',
+597 silly addNameRange     '1.1.1',
+597 silly addNameRange     '2.0.0',
+597 silly addNameRange     '0.7.0',
+597 silly addNameRange     '2.1.0' ] ]
+598 silly addNamed node-libs-browser@2.1.0
+599 verbose addNamed "2.1.0" is a plain semver version for node-libs-browser
+600 verbose afterAdd /Users/liwenqiang/.npm/neo-async/2.5.1/package/package.json written
+601 silly cache afterAdd node-libs-browser@2.1.0
+602 verbose afterAdd /Users/liwenqiang/.npm/node-libs-browser/2.1.0/package/package.json not in flight; writing
+603 verbose correctMkdir /Users/liwenqiang/.npm correctMkdir not in flight; initializing
+604 verbose afterAdd /Users/liwenqiang/.npm/node-libs-browser/2.1.0/package/package.json written
+605 http 304 http://192.168.1.200:4873/tapable
+606 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+606 verbose headers   etag: '"2d2f320f68adcef6301a7354f5f396b4"',
+606 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+606 verbose headers   date: 'Fri, 15 Jun 2018 02:55:53 GMT',
+606 verbose headers   connection: 'keep-alive' }
+607 silly get cb [ 304,
+607 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+607 silly get     etag: '"2d2f320f68adcef6301a7354f5f396b4"',
+607 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+607 silly get     date: 'Fri, 15 Jun 2018 02:55:53 GMT',
+607 silly get     connection: 'keep-alive' } ]
+608 verbose etag http://192.168.1.200:4873/tapable from cache
+609 verbose get saving tapable to /Users/liwenqiang/.npm/192.168.1.200_4873/tapable/.cache.json
+610 verbose correctMkdir /Users/liwenqiang/.npm correctMkdir not in flight; initializing
+611 silly resolveWithNewModule tapable@1.0.0 checking installable status
+612 silly cache add args [ 'tapable@^1.0.0', null ]
+613 verbose cache add spec tapable@^1.0.0
+614 silly cache add parsed spec Result {
+614 silly cache add   raw: 'tapable@^1.0.0',
+614 silly cache add   scope: null,
+614 silly cache add   escapedName: 'tapable',
+614 silly cache add   name: 'tapable',
+614 silly cache add   rawSpec: '^1.0.0',
+614 silly cache add   spec: '>=1.0.0 <2.0.0',
+614 silly cache add   type: 'range' }
+615 silly addNamed tapable@>=1.0.0 <2.0.0
+616 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for tapable
+617 silly addNameRange { name: 'tapable', range: '>=1.0.0 <2.0.0', hasData: false }
+618 silly mapToRegistry name tapable
+619 silly mapToRegistry using default registry
+620 silly mapToRegistry registry http://192.168.1.200:4873/
+621 silly mapToRegistry data Result {
+621 silly mapToRegistry   raw: 'tapable',
+621 silly mapToRegistry   scope: null,
+621 silly mapToRegistry   escapedName: 'tapable',
+621 silly mapToRegistry   name: 'tapable',
+621 silly mapToRegistry   rawSpec: '',
+621 silly mapToRegistry   spec: 'latest',
+621 silly mapToRegistry   type: 'tag' }
+622 silly mapToRegistry uri http://192.168.1.200:4873/tapable
+623 verbose addNameRange registry:http://192.168.1.200:4873/tapable not in flight; fetching
+624 verbose get http://192.168.1.200:4873/tapable not expired, no request
+625 silly addNameRange number 2 { name: 'tapable', range: '>=1.0.0 <2.0.0', hasData: true }
+626 silly addNameRange versions [ 'tapable',
+626 silly addNameRange   [ '0.1.0',
+626 silly addNameRange     '0.1.1',
+626 silly addNameRange     '0.1.2',
+626 silly addNameRange     '0.1.3',
+626 silly addNameRange     '0.1.4',
+626 silly addNameRange     '0.1.5',
+626 silly addNameRange     '0.1.6',
+626 silly addNameRange     '0.1.7',
+626 silly addNameRange     '0.1.8',
+626 silly addNameRange     '0.1.9',
+626 silly addNameRange     '0.1.10',
+626 silly addNameRange     '0.2.1',
+626 silly addNameRange     '0.2.2',
+626 silly addNameRange     '0.2.3',
+626 silly addNameRange     '0.2.4',
+626 silly addNameRange     '0.2.5',
+626 silly addNameRange     '0.2.6',
+626 silly addNameRange     '0.2.7',
+626 silly addNameRange     '0.2.8',
+626 silly addNameRange     '1.0.0-beta.0',
+626 silly addNameRange     '1.0.0-beta.1',
+626 silly addNameRange     '1.0.0-beta.4',
+626 silly addNameRange     '1.0.0-beta.3',
+626 silly addNameRange     '1.0.0-beta.2',
+626 silly addNameRange     '1.0.0-beta.5',
+626 silly addNameRange     '1.0.0' ] ]
+627 silly addNamed tapable@1.0.0
+628 verbose addNamed "1.0.0" is a plain semver version for tapable
+629 silly cache afterAdd tapable@1.0.0
+630 verbose afterAdd /Users/liwenqiang/.npm/tapable/1.0.0/package/package.json not in flight; writing
+631 verbose correctMkdir /Users/liwenqiang/.npm correctMkdir not in flight; initializing
+632 verbose afterAdd /Users/liwenqiang/.npm/tapable/1.0.0/package/package.json written
+633 http 304 http://192.168.1.200:4873/watchpack
+634 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+634 verbose headers   etag: '"13c5f4bcf0ebd1d6d3d0643eac5788f6"',
+634 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+634 verbose headers   date: 'Fri, 15 Jun 2018 02:55:53 GMT',
+634 verbose headers   connection: 'keep-alive' }
+635 silly get cb [ 304,
+635 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+635 silly get     etag: '"13c5f4bcf0ebd1d6d3d0643eac5788f6"',
+635 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+635 silly get     date: 'Fri, 15 Jun 2018 02:55:53 GMT',
+635 silly get     connection: 'keep-alive' } ]
+636 verbose etag http://192.168.1.200:4873/watchpack from cache
+637 verbose get saving watchpack to /Users/liwenqiang/.npm/192.168.1.200_4873/watchpack/.cache.json
+638 verbose correctMkdir /Users/liwenqiang/.npm correctMkdir not in flight; initializing
+639 silly resolveWithNewModule watchpack@1.6.0 checking installable status
+640 silly cache add args [ 'watchpack@^1.5.0', null ]
+641 verbose cache add spec watchpack@^1.5.0
+642 silly cache add parsed spec Result {
+642 silly cache add   raw: 'watchpack@^1.5.0',
+642 silly cache add   scope: null,
+642 silly cache add   escapedName: 'watchpack',
+642 silly cache add   name: 'watchpack',
+642 silly cache add   rawSpec: '^1.5.0',
+642 silly cache add   spec: '>=1.5.0 <2.0.0',
+642 silly cache add   type: 'range' }
+643 silly addNamed watchpack@>=1.5.0 <2.0.0
+644 verbose addNamed ">=1.5.0 <2.0.0" is a valid semver range for watchpack
+645 silly addNameRange { name: 'watchpack', range: '>=1.5.0 <2.0.0', hasData: false }
+646 silly mapToRegistry name watchpack
+647 silly mapToRegistry using default registry
+648 silly mapToRegistry registry http://192.168.1.200:4873/
+649 silly mapToRegistry data Result {
+649 silly mapToRegistry   raw: 'watchpack',
+649 silly mapToRegistry   scope: null,
+649 silly mapToRegistry   escapedName: 'watchpack',
+649 silly mapToRegistry   name: 'watchpack',
+649 silly mapToRegistry   rawSpec: '',
+649 silly mapToRegistry   spec: 'latest',
+649 silly mapToRegistry   type: 'tag' }
+650 silly mapToRegistry uri http://192.168.1.200:4873/watchpack
+651 verbose addNameRange registry:http://192.168.1.200:4873/watchpack not in flight; fetching
+652 verbose get http://192.168.1.200:4873/watchpack not expired, no request
+653 silly addNameRange number 2 { name: 'watchpack', range: '>=1.5.0 <2.0.0', hasData: true }
+654 silly addNameRange versions [ 'watchpack',
+654 silly addNameRange   [ '0.1.0',
+654 silly addNameRange     '0.1.1',
+654 silly addNameRange     '0.1.2',
+654 silly addNameRange     '0.1.3',
+654 silly addNameRange     '0.2.0',
+654 silly addNameRange     '0.2.1',
+654 silly addNameRange     '0.2.2',
+654 silly addNameRange     '0.2.3',
+654 silly addNameRange     '0.2.4',
+654 silly addNameRange     '0.2.5',
+654 silly addNameRange     '0.2.6',
+654 silly addNameRange     '0.2.7',
+654 silly addNameRange     '0.2.8',
+654 silly addNameRange     '0.2.9',
+654 silly addNameRange     '1.0.0',
+654 silly addNameRange     '1.0.1',
+654 silly addNameRange     '1.1.0',
+654 silly addNameRange     '1.2.0',
+654 silly addNameRange     '1.2.1',
+654 silly addNameRange     '1.3.0',
+654 silly addNameRange     '1.3.1',
+654 silly addNameRange     '1.4.0',
+654 silly addNameRange     '1.5.0',
+654 silly addNameRange     '1.6.0' ] ]
+655 silly addNamed watchpack@1.6.0
+656 verbose addNamed "1.6.0" is a plain semver version for watchpack
+657 silly cache afterAdd watchpack@1.6.0
+658 verbose afterAdd /Users/liwenqiang/.npm/watchpack/1.6.0/package/package.json not in flight; writing
+659 verbose correctMkdir /Users/liwenqiang/.npm correctMkdir not in flight; initializing
+660 http 304 http://192.168.1.200:4873/micromatch
+661 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+661 verbose headers   etag: '"dd853ba516d696c058ef88e0abb79305"',
+661 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+661 verbose headers   date: 'Fri, 15 Jun 2018 02:55:53 GMT',
+661 verbose headers   connection: 'keep-alive' }
+662 silly get cb [ 304,
+662 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+662 silly get     etag: '"dd853ba516d696c058ef88e0abb79305"',
+662 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+662 silly get     date: 'Fri, 15 Jun 2018 02:55:53 GMT',
+662 silly get     connection: 'keep-alive' } ]
+663 verbose etag http://192.168.1.200:4873/micromatch from cache
+664 verbose get saving micromatch to /Users/liwenqiang/.npm/192.168.1.200_4873/micromatch/.cache.json
+665 verbose correctMkdir /Users/liwenqiang/.npm correctMkdir not in flight; initializing
+666 verbose afterAdd /Users/liwenqiang/.npm/watchpack/1.6.0/package/package.json written
+667 silly resolveWithNewModule micromatch@3.1.10 checking installable status
+668 silly cache add args [ 'micromatch@^3.1.8', null ]
+669 verbose cache add spec micromatch@^3.1.8
+670 silly cache add parsed spec Result {
+670 silly cache add   raw: 'micromatch@^3.1.8',
+670 silly cache add   scope: null,
+670 silly cache add   escapedName: 'micromatch',
+670 silly cache add   name: 'micromatch',
+670 silly cache add   rawSpec: '^3.1.8',
+670 silly cache add   spec: '>=3.1.8 <4.0.0',
+670 silly cache add   type: 'range' }
+671 silly addNamed micromatch@>=3.1.8 <4.0.0
+672 verbose addNamed ">=3.1.8 <4.0.0" is a valid semver range for micromatch
+673 silly addNameRange { name: 'micromatch', range: '>=3.1.8 <4.0.0', hasData: false }
+674 silly mapToRegistry name micromatch
+675 silly mapToRegistry using default registry
+676 silly mapToRegistry registry http://192.168.1.200:4873/
+677 silly mapToRegistry data Result {
+677 silly mapToRegistry   raw: 'micromatch',
+677 silly mapToRegistry   scope: null,
+677 silly mapToRegistry   escapedName: 'micromatch',
+677 silly mapToRegistry   name: 'micromatch',
+677 silly mapToRegistry   rawSpec: '',
+677 silly mapToRegistry   spec: 'latest',
+677 silly mapToRegistry   type: 'tag' }
+678 silly mapToRegistry uri http://192.168.1.200:4873/micromatch
+679 verbose addNameRange registry:http://192.168.1.200:4873/micromatch not in flight; fetching
+680 verbose get http://192.168.1.200:4873/micromatch not expired, no request
+681 silly addNameRange number 2 { name: 'micromatch', range: '>=3.1.8 <4.0.0', hasData: true }
+682 silly addNameRange versions [ 'micromatch',
+682 silly addNameRange   [ '0.1.0',
+682 silly addNameRange     '0.2.0',
+682 silly addNameRange     '0.2.1',
+682 silly addNameRange     '0.2.2',
+682 silly addNameRange     '1.0.0',
+682 silly addNameRange     '1.0.1',
+682 silly addNameRange     '1.2.0',
+682 silly addNameRange     '1.2.2',
+682 silly addNameRange     '1.3.0',
+682 silly addNameRange     '1.3.1',
+682 silly addNameRange     '1.3.2',
+682 silly addNameRange     '1.3.3',
+682 silly addNameRange     '1.4.0',
+682 silly addNameRange     '1.4.1',
+682 silly addNameRange     '1.4.2',
+682 silly addNameRange     '1.4.3',
+682 silly addNameRange     '1.4.4',
+682 silly addNameRange     '1.4.5',
+682 silly addNameRange     '1.5.0',
+682 silly addNameRange     '1.6.0',
+682 silly addNameRange     '1.6.1',
+682 silly addNameRange     '1.6.2',
+682 silly addNameRange     '2.0.0',
+682 silly addNameRange     '2.1.0',
+682 silly addNameRange     '2.1.1',
+682 silly addNameRange     '2.1.2',
+682 silly addNameRange     '2.1.3',
+682 silly addNameRange     '2.1.4',
+682 silly addNameRange     '2.1.5',
+682 silly addNameRange     '2.1.6',
+682 silly addNameRange     '2.2.0',
+682 silly addNameRange     '2.3.0',
+682 silly addNameRange     '2.3.1',
+682 silly addNameRange     '2.3.2',
+682 silly addNameRange     '2.3.3',
+682 silly addNameRange     '2.3.4',
+682 silly addNameRange     '2.3.5',
+682 silly addNameRange     '2.3.6',
+682 silly addNameRange     '2.3.7',
+682 silly addNameRange     '2.3.8',
+682 silly addNameRange     '2.3.9',
+682 silly addNameRange     '2.3.10',
+682 silly addNameRange     '2.3.11',
+682 silly addNameRange     '3.0.3',
+682 silly addNameRange     '3.0.2',
+682 silly addNameRange     '3.0.1',
+682 silly addNameRange     '3.0.0',
+682 silly addNameRange     '3.0.4',
+682 silly addNameRange     '3.0.5',
+682 silly addNameRange     '3.1.0',
+682 silly addNameRange     '3.1.4',
+682 silly addNameRange     '3.1.3',
+682 silly addNameRange     '3.1.2',
+682 silly addNameRange     '3.1.1',
+682 silly addNameRange     '3.1.5',
+682 silly addNameRange     '3.1.6',
+682 silly addNameRange     '3.1.7',
+682 silly addNameRange     '3.1.8',
+682 silly addNameRange     '3.1.9',
+682 silly addNameRange     '3.1.10' ] ]
+683 silly addNamed micromatch@3.1.10
+684 verbose addNamed "3.1.10" is a plain semver version for micromatch
+685 silly cache afterAdd micromatch@3.1.10
+686 verbose afterAdd /Users/liwenqiang/.npm/micromatch/3.1.10/package/package.json not in flight; writing
+687 verbose correctMkdir /Users/liwenqiang/.npm correctMkdir not in flight; initializing
+688 verbose afterAdd /Users/liwenqiang/.npm/micromatch/3.1.10/package/package.json written
+689 http 304 http://192.168.1.200:4873/webpack-sources
+690 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+690 verbose headers   etag: '"0cb4694c568528c4a1c405aae6de25de"',
+690 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+690 verbose headers   date: 'Fri, 15 Jun 2018 02:55:53 GMT',
+690 verbose headers   connection: 'keep-alive' }
+691 silly get cb [ 304,
+691 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+691 silly get     etag: '"0cb4694c568528c4a1c405aae6de25de"',
+691 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+691 silly get     date: 'Fri, 15 Jun 2018 02:55:53 GMT',
+691 silly get     connection: 'keep-alive' } ]
+692 verbose etag http://192.168.1.200:4873/webpack-sources from cache
+693 verbose get saving webpack-sources to /Users/liwenqiang/.npm/192.168.1.200_4873/webpack-sources/.cache.json
+694 verbose correctMkdir /Users/liwenqiang/.npm correctMkdir not in flight; initializing
+695 silly resolveWithNewModule webpack-sources@1.1.0 checking installable status
+696 silly cache add args [ 'webpack-sources@^1.0.1', null ]
+697 verbose cache add spec webpack-sources@^1.0.1
+698 silly cache add parsed spec Result {
+698 silly cache add   raw: 'webpack-sources@^1.0.1',
+698 silly cache add   scope: null,
+698 silly cache add   escapedName: 'webpack-sources',
+698 silly cache add   name: 'webpack-sources',
+698 silly cache add   rawSpec: '^1.0.1',
+698 silly cache add   spec: '>=1.0.1 <2.0.0',
+698 silly cache add   type: 'range' }
+699 silly addNamed webpack-sources@>=1.0.1 <2.0.0
+700 verbose addNamed ">=1.0.1 <2.0.0" is a valid semver range for webpack-sources
+701 silly addNameRange { name: 'webpack-sources',
+701 silly addNameRange   range: '>=1.0.1 <2.0.0',
+701 silly addNameRange   hasData: false }
+702 silly mapToRegistry name webpack-sources
+703 silly mapToRegistry using default registry
+704 silly mapToRegistry registry http://192.168.1.200:4873/
+705 silly mapToRegistry data Result {
+705 silly mapToRegistry   raw: 'webpack-sources',
+705 silly mapToRegistry   scope: null,
+705 silly mapToRegistry   escapedName: 'webpack-sources',
+705 silly mapToRegistry   name: 'webpack-sources',
+705 silly mapToRegistry   rawSpec: '',
+705 silly mapToRegistry   spec: 'latest',
+705 silly mapToRegistry   type: 'tag' }
+706 silly mapToRegistry uri http://192.168.1.200:4873/webpack-sources
+707 verbose addNameRange registry:http://192.168.1.200:4873/webpack-sources not in flight; fetching
+708 verbose get http://192.168.1.200:4873/webpack-sources not expired, no request
+709 silly addNameRange number 2 { name: 'webpack-sources',
+709 silly addNameRange   range: '>=1.0.1 <2.0.0',
+709 silly addNameRange   hasData: true }
+710 silly addNameRange versions [ 'webpack-sources',
+710 silly addNameRange   [ '0.1.0',
+710 silly addNameRange     '0.1.1',
+710 silly addNameRange     '0.1.2',
+710 silly addNameRange     '0.1.3',
+710 silly addNameRange     '0.1.4',
+710 silly addNameRange     '0.1.5',
+710 silly addNameRange     '0.2.0',
+710 silly addNameRange     '0.2.1',
+710 silly addNameRange     '0.2.2',
+710 silly addNameRange     '0.2.3',
+710 silly addNameRange     '1.0.1',
+710 silly addNameRange     '1.0.0',
+710 silly addNameRange     '1.0.2',
+710 silly addNameRange     '1.1.0' ] ]
+711 silly addNamed webpack-sources@1.1.0
+712 verbose addNamed "1.1.0" is a plain semver version for webpack-sources
+713 silly cache afterAdd webpack-sources@1.1.0
+714 verbose afterAdd /Users/liwenqiang/.npm/webpack-sources/1.1.0/package/package.json not in flight; writing
+715 verbose correctMkdir /Users/liwenqiang/.npm correctMkdir not in flight; initializing
+716 verbose afterAdd /Users/liwenqiang/.npm/webpack-sources/1.1.0/package/package.json written
+717 http 304 http://192.168.1.200:4873/uglifyjs-webpack-plugin
+718 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+718 verbose headers   etag: '"eeb26d7079f08de2888855ba1697c26c"',
+718 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+718 verbose headers   date: 'Fri, 15 Jun 2018 02:55:53 GMT',
+718 verbose headers   connection: 'keep-alive' }
+719 silly get cb [ 304,
+719 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+719 silly get     etag: '"eeb26d7079f08de2888855ba1697c26c"',
+719 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+719 silly get     date: 'Fri, 15 Jun 2018 02:55:53 GMT',
+719 silly get     connection: 'keep-alive' } ]
+720 verbose etag http://192.168.1.200:4873/uglifyjs-webpack-plugin from cache
+721 verbose get saving uglifyjs-webpack-plugin to /Users/liwenqiang/.npm/192.168.1.200_4873/uglifyjs-webpack-plugin/.cache.json
+722 verbose correctMkdir /Users/liwenqiang/.npm correctMkdir not in flight; initializing
+723 silly resolveWithNewModule uglifyjs-webpack-plugin@1.2.5 checking installable status
+724 silly cache add args [ 'uglifyjs-webpack-plugin@^1.2.4', null ]
+725 verbose cache add spec uglifyjs-webpack-plugin@^1.2.4
+726 silly cache add parsed spec Result {
+726 silly cache add   raw: 'uglifyjs-webpack-plugin@^1.2.4',
+726 silly cache add   scope: null,
+726 silly cache add   escapedName: 'uglifyjs-webpack-plugin',
+726 silly cache add   name: 'uglifyjs-webpack-plugin',
+726 silly cache add   rawSpec: '^1.2.4',
+726 silly cache add   spec: '>=1.2.4 <2.0.0',
+726 silly cache add   type: 'range' }
+727 silly addNamed uglifyjs-webpack-plugin@>=1.2.4 <2.0.0
+728 verbose addNamed ">=1.2.4 <2.0.0" is a valid semver range for uglifyjs-webpack-plugin
+729 silly addNameRange { name: 'uglifyjs-webpack-plugin',
+729 silly addNameRange   range: '>=1.2.4 <2.0.0',
+729 silly addNameRange   hasData: false }
+730 silly mapToRegistry name uglifyjs-webpack-plugin
+731 silly mapToRegistry using default registry
+732 silly mapToRegistry registry http://192.168.1.200:4873/
+733 silly mapToRegistry data Result {
+733 silly mapToRegistry   raw: 'uglifyjs-webpack-plugin',
+733 silly mapToRegistry   scope: null,
+733 silly mapToRegistry   escapedName: 'uglifyjs-webpack-plugin',
+733 silly mapToRegistry   name: 'uglifyjs-webpack-plugin',
+733 silly mapToRegistry   rawSpec: '',
+733 silly mapToRegistry   spec: 'latest',
+733 silly mapToRegistry   type: 'tag' }
+734 silly mapToRegistry uri http://192.168.1.200:4873/uglifyjs-webpack-plugin
+735 verbose addNameRange registry:http://192.168.1.200:4873/uglifyjs-webpack-plugin not in flight; fetching
+736 verbose get http://192.168.1.200:4873/uglifyjs-webpack-plugin not expired, no request
+737 silly addNameRange number 2 { name: 'uglifyjs-webpack-plugin',
+737 silly addNameRange   range: '>=1.2.4 <2.0.0',
+737 silly addNameRange   hasData: true }
+738 silly addNameRange versions [ 'uglifyjs-webpack-plugin',
+738 silly addNameRange   [ '1.0.0-beta.0',
+738 silly addNameRange     '0.4.6',
+738 silly addNameRange     '0.4.5',
+738 silly addNameRange     '0.4.4',
+738 silly addNameRange     '0.4.3',
+738 silly addNameRange     '0.4.2',
+738 silly addNameRange     '0.4.1',
+738 silly addNameRange     '0.4.0',
+738 silly addNameRange     '0.3.1',
+738 silly addNameRange     '0.3.0',
+738 silly addNameRange     '0.2.2',
+738 silly addNameRange     '0.2.1',
+738 silly addNameRange     '0.2.0',
+738 silly addNameRange     '0.1.5',
+738 silly addNameRange     '0.1.4',
+738 silly addNameRange     '0.1.3',
+738 silly addNameRange     '0.1.2',
+738 silly addNameRange     '0.1.1',
+738 silly addNameRange     '0.1.0',
+738 silly addNameRange     '1.0.0-beta.1',
+738 silly addNameRange     '1.0.0-beta.2',
+738 silly addNameRange     '1.0.0-beta.3',
+738 silly addNameRange     '1.0.1',
+738 silly addNameRange     '1.0.0',
+738 silly addNameRange     '1.0.0-rc.0',
+738 silly addNameRange     '1.1.0',
+738 silly addNameRange     '1.1.2',
+738 silly addNameRange     '1.1.1',
+738 silly addNameRange     '1.1.5',
+738 silly addNameRange     '1.1.4',
+738 silly addNameRange     '1.1.3',
+738 silly addNameRange     '1.1.6',
+738 silly addNameRange     '1.1.7',
+738 silly addNameRange     '1.1.8',
+738 silly addNameRange     '1.2.0',
+738 silly addNameRange     '1.2.1',
+738 silly addNameRange     '1.2.2',
+738 silly addNameRange     '1.2.3',
+738 silly addNameRange     '1.2.4',
+738 silly addNameRange     '1.2.5' ] ]
+739 silly addNamed uglifyjs-webpack-plugin@1.2.5
+740 verbose addNamed "1.2.5" is a plain semver version for uglifyjs-webpack-plugin
+741 silly cache afterAdd uglifyjs-webpack-plugin@1.2.5
+742 verbose afterAdd /Users/liwenqiang/.npm/uglifyjs-webpack-plugin/1.2.5/package/package.json not in flight; writing
+743 verbose correctMkdir /Users/liwenqiang/.npm correctMkdir not in flight; initializing
+744 verbose afterAdd /Users/liwenqiang/.npm/uglifyjs-webpack-plugin/1.2.5/package/package.json written
+745 silly rollbackFailedOptional Starting
+746 silly rollbackFailedOptional Finishing
+747 silly runTopLevelLifecycles Finishing
+748 silly install printInstalled
+749 verbose stack Error: user liwenqiang is not allowed to access package @webassemblyjs/ast : @webassemblyjs/ast
+749 verbose stack     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+749 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+749 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+749 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:187:22)
+749 verbose stack     at emitTwo (events.js:106:13)
+749 verbose stack     at Request.emit (events.js:191:7)
+749 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+749 verbose stack     at emitOne (events.js:96:13)
+749 verbose stack     at Request.emit (events.js:188:7)
+749 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:969:12)
+750 verbose statusCode 403
+751 verbose pkgid @webassemblyjs/ast
+752 verbose cwd /Users/liwenqiang/Desktop/myCode/nodeApp
+753 error Darwin 17.5.0
+754 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "webpack" "--save-dev"
+755 error node v6.11.2
+756 error npm  v3.10.10
+757 error code E403
+758 error user liwenqiang is not allowed to access package @webassemblyjs/ast : @webassemblyjs/ast
+759 error If you need help, you may report this error at:
+759 error     <https://github.com/npm/npm/issues>
+760 verbose exit [ 1, true ]

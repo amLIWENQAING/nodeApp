@@ -4,7 +4,8 @@
   "description": "\"node学习\"",
   "main": "bundle.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --open --colors --progress"
   },
   "keywords": [
     "node"
@@ -13,6 +14,8 @@
   "license": "ISC",
   "dependencies": {
     "css-loader": "^0.28.11",
+    "express": "^4.16.3",
     "style-loader": "^0.21.0"
-  }
+  },
+  "repository": "git@github.com:amLIWENQAING/nodeApp.git"
 }
